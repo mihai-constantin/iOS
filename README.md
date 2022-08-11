@@ -11,3 +11,4 @@
 * [Figma Design](https://www.figma.com/file/3MBMeYd2hP4rajTbHnZL0z/Bullseye?node-id=0%3A1)
 * SwiftUI basics: Text, Button, Slider, VStack, HStack
 * @State properties
+* Unit testing
