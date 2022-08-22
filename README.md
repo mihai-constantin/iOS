@@ -12,3 +12,9 @@
 * SwiftUI basics: Text, Button, Slider, VStack, HStack
 * @State properties
 * Unit testing
+
+### Yout First iOS & SwiftUI App: Polishing the App
+* [Figma Design](https://www.figma.com/file/3MBMeYd2hP4rajTbHnZL0z/Bullseye?node-id=0%3A1)
+* Colors & Gradients
+* Dark Mode enabled
+* Extract Views
