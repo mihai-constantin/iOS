@@ -16,6 +16,8 @@
 		9DADD9CB28B38B240056D031 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADD9CA28B38B240056D031 /* TextViews.swift */; };
 		9DADD9CD28B38EB60056D031 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADD9CC28B38EB60056D031 /* SliderView.swift */; };
 		9DADD9CF28B3907B0056D031 /* HitMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADD9CE28B3907B0056D031 /* HitMeButton.swift */; };
+		9DADD9D328B39BDE0056D031 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADD9D228B39BDE0056D031 /* RoundedViews.swift */; };
+		9DADD9D528B3B88A0056D031 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DADD9D428B3B88A0056D031 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		9DADD9CA28B38B240056D031 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
 		9DADD9CC28B38EB60056D031 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		9DADD9CE28B3907B0056D031 /* HitMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitMeButton.swift; sourceTree = "<group>"; };
+		9DADD9D228B39BDE0056D031 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		9DADD9D428B3B88A0056D031 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				9DADD9CA28B38B240056D031 /* TextViews.swift */,
 				9DADD9CC28B38EB60056D031 /* SliderView.swift */,
 				9DADD9CE28B3907B0056D031 /* HitMeButton.swift */,
+				9DADD9D228B39BDE0056D031 /* RoundedViews.swift */,
+				9DADD9D428B3B88A0056D031 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,7 +241,9 @@
 			files = (
 				9D0E251928A13C5300FA7FEE /* ContentView.swift in Sources */,
 				9DADD9CB28B38B240056D031 /* TextViews.swift in Sources */,
+				9DADD9D528B3B88A0056D031 /* BackgroundView.swift in Sources */,
 				9D99B77A28A5355300343858 /* Game.swift in Sources */,
+				9DADD9D328B39BDE0056D031 /* RoundedViews.swift in Sources */,
 				9DADD9CF28B3907B0056D031 /* HitMeButton.swift in Sources */,
 				9D0E251728A13C5300FA7FEE /* BullseyeApp.swift in Sources */,
 				9DADD9CD28B38EB60056D031 /* SliderView.swift in Sources */,

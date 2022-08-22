@@ -18,3 +18,4 @@
 * Colors & Gradients
 * Dark Mode enabled
 * Extract Views
+* Fill & Stroke Shapes, SFSymbols
