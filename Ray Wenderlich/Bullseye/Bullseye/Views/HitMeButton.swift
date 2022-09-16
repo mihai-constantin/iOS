@@ -26,7 +26,6 @@ struct HitMeButton: View {
     
     var body: some View {
         Button(action: {
-            print("Button pressed")
             self.alertIsVisible = true
         }) {
             Text("Hit me".uppercased())
@@ -47,7 +46,9 @@ struct HitMeButton: View {
                 .strokeBorder(.white, lineWidth: 2.0)
         )
         .alert("Hello there", isPresented: $alertIsVisible) {
-            Button("Awesome!") { }
+            Button("Awesome!") {
+                game.startNewRound(points: game.calculateScore(sliderValue: Int(self.sliderValue.rounded())))
+            }
         } message: {
             let roundedScore = Int(self.sliderValue.rounded())
             Text("The slider's value is \(roundedScore).\n" + "You score \(game.calculateScore(sliderValue: roundedScore))")
