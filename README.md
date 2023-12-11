@@ -21,3 +21,11 @@
 * Extract Views
 * Fill & Stroke Shapes, SFSymbols
 * EnvironmentValues
+
+
+# [SwiftUI Fundamentals](https://youtu.be/b1oC7sLIgpI?si=bXl6gPqR0uUHDnQ5)
+
+## Weather App
+* Basics: Text, Image, Button, HStack, VStack, ZStack 
+* Modifiers
+* Extract Views
