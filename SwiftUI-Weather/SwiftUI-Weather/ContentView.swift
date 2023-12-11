@@ -66,6 +66,8 @@ struct WeatherDayView: View {
                 .foregroundStyle(.white)
             Image(systemName: imageName)
                 .renderingMode(.original)
+                .symbolRenderingMode(.palette)
+                .foregroundStyle(.black, .white, .red)
             Text("\(temperature)°")
                 .foregroundStyle(.white)
         }
