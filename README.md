@@ -29,3 +29,4 @@
 * Basics: Text, Image, Button, HStack, VStack, ZStack 
 * Modifiers
 * Extract Views
+* @State, @Binding vars
