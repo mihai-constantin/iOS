@@ -66,8 +66,8 @@ struct WeatherDayView: View {
                 .foregroundStyle(.white)
             Image(systemName: imageName)
                 .renderingMode(.original)
-                .symbolRenderingMode(.palette)
-                .foregroundStyle(.black, .white, .red)
+//                .symbolRenderingMode(.palette)
+//                .foregroundStyle(.black, .white, .red)
             Text("\(temperature)°")
                 .foregroundStyle(.white)
         }
@@ -79,9 +79,14 @@ struct BackgroundView: View {
     var isNight: Bool
     
     var body: some View {
-        LinearGradient(colors: [ isNight ? .black : .blue, isNight ? .gray : Color("lightBlue")],
-                       startPoint: .top, endPoint: .bottom)
-        .ignoresSafeArea()
+//        LinearGradient(colors: [ isNight ? .black : .blue, isNight ? .gray : Color("lightBlue")],
+//                       startPoint: .top, endPoint: .bottom)
+//        .ignoresSafeArea()
+        
+        // iOS 16
+        ContainerRelativeShape()
+            .fill(isNight ? Color.black.gradient : Color.blue.gradient)
+            .ignoresSafeArea()
     }
 }
 

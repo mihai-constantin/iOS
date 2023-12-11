@@ -31,3 +31,4 @@
 * Extract Views
 * @State, @Binding vars
 * iOS 15: rendering mode for sf symbols
+* iOS 16: gradient for ui color

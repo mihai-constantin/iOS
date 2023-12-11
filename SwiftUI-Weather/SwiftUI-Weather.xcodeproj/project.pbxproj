@@ -55,9 +55,9 @@
 			children = (
 				9DF766EF2B27118F00547E17 /* SwiftUI_WeatherApp.swift */,
 				9DF766F12B27118F00547E17 /* ContentView.swift */,
+				9DF766FD2B2723F500547E17 /* WeatherButton.swift */,
 				9DF766F32B27119000547E17 /* Assets.xcassets */,
 				9DF766F52B27119000547E17 /* Preview Content */,
-				9DF766FD2B2723F500547E17 /* WeatherButton.swift */,
 			);
 			path = "SwiftUI-Weather";
 			sourceTree = "<group>";
