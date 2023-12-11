@@ -13,7 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            BackgroundView(isNight: $isNight)
+            BackgroundView(isNight: isNight)
             
             VStack {
                 
@@ -33,7 +33,6 @@ struct ContentView: View {
                 Spacer()
                 
                 Button(action: {
-                    print("button pressed")
                     isNight.toggle()
                 }, label: {
                     WeatherButton(title: "Change day time",
@@ -75,7 +74,7 @@ struct WeatherDayView: View {
 
 struct BackgroundView: View {
     
-    @Binding var isNight: Bool
+    var isNight: Bool
     
     var body: some View {
         LinearGradient(colors: [ isNight ? .black : .blue, isNight ? .gray : Color("lightBlue")],
