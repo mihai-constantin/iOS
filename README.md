@@ -29,6 +29,7 @@
 * Basics: Text, Image, Button, HStack, VStack, ZStack 
 * Modifiers
 * Extract Views
-* @State, @Binding vars
+* **@State, @Binding** vars
 * iOS 15: rendering mode for sf symbols
 * iOS 16: gradient for ui color
+* if-else, switch statements in the **@ViewBuilder**
