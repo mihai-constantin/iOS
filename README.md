@@ -23,6 +23,11 @@
 * EnvironmentValues
 
 
+# Demos
+## Convert speech to text 
+* https://developer.apple.com/tutorials/app-dev-training/transcribing-speech-to-text
+* Speech framework
+
 # [SwiftUI Fundamentals](https://youtu.be/b1oC7sLIgpI?si=bXl6gPqR0uUHDnQ5)
 
 ## Weather App
