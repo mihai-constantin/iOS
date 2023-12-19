@@ -4,37 +4,14 @@
 * [Apple Typography](https://developer.apple.com/design/human-interface-guidelines/foundations/typography/)
 * [EnvironmentValues in the official Apple Documentation](https://developer.apple.com/documentation/swiftui/environmentvalues)
 
-# [Ray Wenderlich Learning Paths](https://www.raywenderlich.com/ios/paths/learn)
+## [Ray Wenderlich Learning Paths](https://www.raywenderlich.com/ios/paths/learn)
+* [README](./Ray%20Wenderlich/README.md)
 
-## iOS and SwiftUI for Beginners
+## [SwiftUI Fundamentals](https://youtu.be/b1oC7sLIgpI?si=bXl6gPqR0uUHDnQ5)
+* [README](./SwiftUI%20Sean%20Allen/README.md)
 
-### Your First iOS & SwiftUI App: An App from Scratch
-* [Figma Design](https://www.figma.com/file/3MBMeYd2hP4rajTbHnZL0z/Bullseye?node-id=0%3A1)
-* SwiftUI basics: Text, Button, Slider, VStack, HStack
-* @State properties
-* Unit testing
+## [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
+* [README](./100_Days_of_SwiftUI/README.md)
 
-### Your First iOS & SwiftUI App: Polishing the App
-* [Figma Design](https://www.figma.com/file/3MBMeYd2hP4rajTbHnZL0z/Bullseye?node-id=0%3A1)
-* Colors & Gradients
-* Dark Mode enabled
-* Extract Views
-* Fill & Stroke Shapes, SFSymbols
-* EnvironmentValues
-
-
-# Demos
-## Convert speech to text 
-* https://developer.apple.com/tutorials/app-dev-training/transcribing-speech-to-text
-* Speech framework
-
-# [SwiftUI Fundamentals](https://youtu.be/b1oC7sLIgpI?si=bXl6gPqR0uUHDnQ5)
-
-## Weather App
-* Basics: Text, Image, Button, HStack, VStack, ZStack 
-* Modifiers
-* Extract Views
-* **@State, @Binding** vars
-* iOS 15: rendering mode for sf symbols
-* iOS 16: gradient for ui color
-* if-else, switch statements in the **@ViewBuilder**
+## Demos
+* [README](./Demos/README.md)
