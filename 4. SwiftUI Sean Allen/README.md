@@ -13,3 +13,6 @@
 * LazyHGrid, LazyVGrid, GridItem
 * conform struct to **Hashable** and **Identifiable** in order to iterate using **ForEach**
 * NavigationView, ScrollView
+* MVVM
+* @StateObject, ObservableObject
+* @Publised
