@@ -10,4 +10,6 @@
 * if-else, switch statements in the **@ViewBuilder**
 
 ### Apple-Frameworks App
-* LazyVGrid
+* LazyHGrid, LazyVGrid, GridItem
+* conform struct to **Hashable** and **Identifiable** in order to iterate using **ForEach**
+* NavigationView, ScrollView
