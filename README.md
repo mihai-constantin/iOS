@@ -5,13 +5,13 @@
 * [EnvironmentValues in the official Apple Documentation](https://developer.apple.com/documentation/swiftui/environmentvalues)
 
 ## [Ray Wenderlich Learning Paths](https://www.raywenderlich.com/ios/paths/learn)
-* [README](./Ray%20Wenderlich/README.md)
+* [README](./3.%20Ray%20Wenderlich/README.md)
 
-## [SwiftUI Fundamentals](https://youtu.be/b1oC7sLIgpI?si=bXl6gPqR0uUHDnQ5)
-* [README](./SwiftUI%20Sean%20Allen/README.md)
+## [SwiftUI Fundamentals Sean Allen](https://youtu.be/b1oC7sLIgpI?si=bXl6gPqR0uUHDnQ5)
+* [README](./4.%20SwiftUI%20Sean%20Allen/README.md)
 
 ## [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
-* [README](./100_Days_of_SwiftUI/README.md)
+* [README](./2.%20100_Days_of_SwiftUI/README.md)
 
 ## Demos
-* [README](./Demos/README.md)
+* [README](./1.%20Demos/README.md)
