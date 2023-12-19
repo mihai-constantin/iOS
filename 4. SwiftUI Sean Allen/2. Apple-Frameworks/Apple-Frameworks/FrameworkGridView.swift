@@ -15,47 +15,44 @@ struct FrameworkGridView: View {
     
     var body: some View {
         
-        LazyVGrid(columns: columns) {
-            FrameworkTitleView(imageName: "app-clip",
-                               name: "App Clips")
-            FrameworkTitleView(imageName: "app-clip",
-                               name: "App Clips")
-            FrameworkTitleView(imageName: "app-clip",
-                               name: "App Clips")
-            FrameworkTitleView(imageName: "app-clip",
-                               name: "App Clips")
-            FrameworkTitleView(imageName: "app-clip",
-                               name: "App Clips")
-            FrameworkTitleView(imageName: "app-clip",
-                               name: "App Clips")
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: columns) {
+                    ForEach(MockData.frameworks) { framework in
+                        FrameworkTitleView(framework: framework)
+                    }
+                }
+            }
+            .navigationTitle("🍎 Frameworks")
         }
-        
     }
 }
 
 struct FrameworkTitleView: View {
     
-    var imageName: String
-    var name: String
+    let framework: Framework
     
     var body: some View {
         VStack {
-            Image(imageName)
+            Image(framework.imageName)
                 .renderingMode(.original)
                 .resizable()
                 .frame(width: 90, height: 90)
             
-            Text(name)
+            Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
         }
+        .padding()
     }
 }
 
 struct FrameworkGridView_Previews: PreviewProvider {
     static var previews: some View {
         FrameworkGridView()
+        
+        FrameworkTitleView(framework: MockData.sampleFramework)
     }
 }
