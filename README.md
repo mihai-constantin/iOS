@@ -3,6 +3,7 @@
 # Nice resources
 * [Apple Typography](https://developer.apple.com/design/human-interface-guidelines/foundations/typography/)
 * [EnvironmentValues in the official Apple Documentation](https://developer.apple.com/documentation/swiftui/environmentvalues)
+* [SwiftUI Kodeco](https://www.kodeco.com/books/swiftui-by-tutorials/v5.0)
 
 ## [Ray Wenderlich Learning Paths](https://www.raywenderlich.com/ios/paths/learn)
 * [README](./3.%20Ray%20Wenderlich/README.md)
