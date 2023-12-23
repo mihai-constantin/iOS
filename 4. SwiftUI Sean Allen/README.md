@@ -17,3 +17,5 @@
 * @StateObject, ObservableObject
 * @Published
 * UIViewControllerRepresentable, SFSafariViewController
+* Display icons using List instead of LazyVGrid
+* NavigationLink
