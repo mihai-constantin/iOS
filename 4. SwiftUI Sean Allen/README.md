@@ -15,4 +15,5 @@
 * NavigationView, ScrollView
 * MVVM
 * @StateObject, ObservableObject
-* @Publised
+* @Published
+* UIViewControllerRepresentable, SFSafariViewController
