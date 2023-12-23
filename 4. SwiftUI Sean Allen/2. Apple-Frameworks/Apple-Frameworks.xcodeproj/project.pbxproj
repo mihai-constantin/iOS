@@ -16,6 +16,8 @@
 		9DF7671A2B29F31400547E17 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF767192B29F31400547E17 /* Framework.swift */; };
 		9DF7671E2B29F41C00547E17 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF7671D2B29F41C00547E17 /* FrameworkGridView.swift */; };
 		EA63AB902B372B2C00B0CCBD /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA63AB8F2B372B2C00B0CCBD /* SafariView.swift */; };
+		EA63AB922B3733E800B0CCBD /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA63AB912B3733E800B0CCBD /* FrameworkTitleView.swift */; };
+		EA63AB942B37343F00B0CCBD /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA63AB932B37343F00B0CCBD /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		9DF767192B29F31400547E17 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		9DF7671D2B29F41C00547E17 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		EA63AB8F2B372B2C00B0CCBD /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		EA63AB912B3733E800B0CCBD /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		EA63AB932B37343F00B0CCBD /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				9DF7670B2B29F21B00547E17 /* Apple_FrameworksApp.swift */,
-				9DF7671D2B29F41C00547E17 /* FrameworkGridView.swift */,
-				9DE0044C2B31A4F500F4B938 /* DetailView.swift */,
-				EA63AB8F2B372B2C00B0CCBD /* SafariView.swift */,
-				9DE0044E2B31C46400F4B938 /* AppleFrameworkButton.swift */,
-				9DE004502B31DE0400F4B938 /* FrameworkGridViewModel.swift */,
-				9DF767192B29F31400547E17 /* Framework.swift */,
+				EA63AB982B37357C00B0CCBD /* Views */,
+				EA63AB952B37350200B0CCBD /* Screens */,
+				EA63AB9A2B3735BA00B0CCBD /* Model */,
+				EA63AB9C2B37360600B0CCBD /* UIKit Componenets */,
 				9DF7670F2B29F21C00547E17 /* Assets.xcassets */,
 				9DF767112B29F21C00547E17 /* Preview Content */,
 			);
@@ -80,6 +82,74 @@
 				9DF767122B29F21C00547E17 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA63AB952B37350200B0CCBD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EA63AB962B37354700B0CCBD /* FrameworkGridView */,
+				EA63AB972B37355E00B0CCBD /* FrameworkDetailView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EA63AB962B37354700B0CCBD /* FrameworkGridView */ = {
+			isa = PBXGroup;
+			children = (
+				9DF7671D2B29F41C00547E17 /* FrameworkGridView.swift */,
+				9DE004502B31DE0400F4B938 /* FrameworkGridViewModel.swift */,
+			);
+			path = FrameworkGridView;
+			sourceTree = "<group>";
+		};
+		EA63AB972B37355E00B0CCBD /* FrameworkDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				9DE0044C2B31A4F500F4B938 /* DetailView.swift */,
+			);
+			path = FrameworkDetailView;
+			sourceTree = "<group>";
+		};
+		EA63AB982B37357C00B0CCBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA63AB992B37358B00B0CCBD /* Buttons */,
+				EA63AB9B2B3735E600B0CCBD /* View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA63AB992B37358B00B0CCBD /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EA63AB932B37343F00B0CCBD /* XDismissButton.swift */,
+				9DE0044E2B31C46400F4B938 /* AppleFrameworkButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EA63AB9A2B3735BA00B0CCBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DF767192B29F31400547E17 /* Framework.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA63AB9B2B3735E600B0CCBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA63AB912B3733E800B0CCBD /* FrameworkTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA63AB9C2B37360600B0CCBD /* UIKit Componenets */ = {
+			isa = PBXGroup;
+			children = (
+				EA63AB8F2B372B2C00B0CCBD /* SafariView.swift */,
+			);
+			path = "UIKit Componenets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,10 +224,12 @@
 			files = (
 				9DF7671E2B29F41C00547E17 /* FrameworkGridView.swift in Sources */,
 				9DE0044F2B31C46400F4B938 /* AppleFrameworkButton.swift in Sources */,
+				EA63AB942B37343F00B0CCBD /* XDismissButton.swift in Sources */,
 				9DE0044D2B31A4F500F4B938 /* DetailView.swift in Sources */,
 				9DF7671A2B29F31400547E17 /* Framework.swift in Sources */,
 				9DF7670C2B29F21B00547E17 /* Apple_FrameworksApp.swift in Sources */,
 				9DE004512B31DE0400F4B938 /* FrameworkGridViewModel.swift in Sources */,
+				EA63AB922B3733E800B0CCBD /* FrameworkTitleView.swift in Sources */,
 				EA63AB902B372B2C00B0CCBD /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
