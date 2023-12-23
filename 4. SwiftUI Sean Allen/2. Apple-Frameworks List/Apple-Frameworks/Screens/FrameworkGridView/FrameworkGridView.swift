@@ -13,19 +13,19 @@ struct FrameworkGridView: View {
     
     var body: some View {
         
-        NavigationView {
+        NavigationStack {
             
             List {
                 ForEach(MockData.frameworks) { framework in
-                    NavigationLink {
-                        DetailView(framework: framework,
-                                   isShowingDetailView: $viewModel.isShowingDetailView)
-                    } label: {
+                    NavigationLink(value: framework) {
                         FrameworkTitleView(framework: framework)
                     }
                 }
             }
             .navigationTitle("🍎 Frameworks")
+            .navigationDestination(for: Framework.self) { framework in
+                DetailView(framework: framework)
+            }
         }
         .tint(Color(.label))
     }

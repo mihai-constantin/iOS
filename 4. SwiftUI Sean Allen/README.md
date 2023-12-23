@@ -20,3 +20,4 @@
 * Display icons using List instead of LazyVGrid
 * NavigationLink
 * System button
+* Navigation Stack

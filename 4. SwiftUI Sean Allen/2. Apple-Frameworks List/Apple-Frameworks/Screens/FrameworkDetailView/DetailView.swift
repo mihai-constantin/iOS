@@ -10,18 +10,12 @@ import SwiftUI
 struct DetailView: View {
     
     var framework: Framework
-    @Binding var isShowingDetailView: Bool
     
     @State private var isShowingSafariView: Bool = false
     
     var body: some View {
         
         VStack {
-            
-//            XDismissButton(isShowingDetailView: $isShowingDetailView)
-            
-            Spacer()
-            
             FrameworkTitleView(framework: framework)
             Text(framework.description)
                 .font(.body)
@@ -46,18 +40,8 @@ struct DetailView: View {
     }
 }
 
-struct BackgroundView: View {
-    var body: some View {
-        ContainerRelativeShape()
-            .fill(Color.black.gradient)
-            .ignoresSafeArea()
-    }
-}
-
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        BackgroundView()
-        DetailView(framework: MockData.sampleFramework,
-                   isShowingDetailView: .constant(false))
+        DetailView(framework: MockData.sampleFramework)
     }
 }
