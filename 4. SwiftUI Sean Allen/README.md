@@ -21,3 +21,7 @@
 * NavigationLink
 * System button
 * Navigation Stack
+
+### Barcode Scanner App
+* Navigation View, VStack, Label
+* Add camera privacy in InfoPlist
