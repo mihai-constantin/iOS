@@ -24,4 +24,5 @@
 
 ### Barcode Scanner App
 * Navigation View, VStack, Label
-* Add camera privacy in InfoPlist
+* Add camera privacy key-value pair in InfoPlist
+* AVFoundation, ScannerVC

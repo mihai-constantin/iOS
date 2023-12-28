@@ -11,6 +11,7 @@
 		EADEC5132B3CD15800146D23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEC5122B3CD15800146D23 /* ContentView.swift */; };
 		EADEC5152B3CD15800146D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADEC5142B3CD15800146D23 /* Assets.xcassets */; };
 		EADEC5192B3CD15800146D23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADEC5182B3CD15800146D23 /* Preview Assets.xcassets */; };
+		EADEC5202B3DF32D00146D23 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEC51F2B3DF32D00146D23 /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EADEC5142B3CD15800146D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EADEC5162B3CD15800146D23 /* BarcodeScanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BarcodeScanner.entitlements; sourceTree = "<group>"; };
 		EADEC5182B3CD15800146D23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EADEC51F2B3DF32D00146D23 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				EADEC5102B3CD15800146D23 /* BarcodeScannerApp.swift */,
 				EADEC5122B3CD15800146D23 /* ContentView.swift */,
+				EADEC51F2B3DF32D00146D23 /* ScannerVC.swift */,
 				EADEC5142B3CD15800146D23 /* Assets.xcassets */,
 				EADEC5162B3CD15800146D23 /* BarcodeScanner.entitlements */,
 				EADEC5172B3CD15800146D23 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EADEC5202B3DF32D00146D23 /* ScannerVC.swift in Sources */,
 				EADEC5132B3CD15800146D23 /* ContentView.swift in Sources */,
 				EADEC5112B3CD15800146D23 /* BarcodeScannerApp.swift in Sources */,
 			);
