@@ -16,7 +16,7 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                Rectangle()
+                ScannerView()
                     .frame(maxWidth: .infinity, maxHeight: 300)
                 
                 Spacer()
