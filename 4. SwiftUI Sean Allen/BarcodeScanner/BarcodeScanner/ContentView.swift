@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var scannedCode: String = ""
+    
     var body: some View {
-        
         NavigationView {
-            
             VStack {
-                
                 Spacer()
                 
-                ScannerView()
+                ScannerView(scannedCode: $scannedCode)
                     .frame(maxWidth: .infinity, maxHeight: 300)
                 
                 Spacer()
@@ -25,9 +25,9 @@ struct ContentView: View {
                     .font(.title2)
                     .padding()
                 
-                Text("Not Yet Scanned")
+                Text(scannedCode.isEmpty ? "Not Yet Scanned" : scannedCode)
                     .font(.largeTitle)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(scannedCode.isEmpty ? .red : .green)
                     .fontWeight(.semibold)
                 
                 Spacer()
