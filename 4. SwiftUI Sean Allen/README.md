@@ -27,3 +27,4 @@
 * Add camera privacy key-value pair in InfoPlist
 * AVFoundation, ScannerVC
 * UIViewController -> Coordinator -> SwiftUI View
+* viewModel - observable object
