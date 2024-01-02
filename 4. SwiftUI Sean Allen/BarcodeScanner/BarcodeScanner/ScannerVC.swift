@@ -8,9 +8,9 @@
 import UIKit
 import AVFoundation
 
-enum CameraError: String {
-    case invalidDeviceInput = "Something is wrong with the camera. We are unable to capture the input."
-    case invalidScanValue   = "The value scanned is not valid. This app scans EAB-8 and EAN-13."
+enum CameraError {
+    case invalidDeviceInput
+    case invalidScanValue
 }
 
 protocol ScannerVCDelegate: AnyObject {
@@ -60,15 +60,15 @@ final class ScannerVC: UIViewController {
         
         do {
             try videoInput = AVCaptureDeviceInput(device: videoCaptureDevice)
-            delegate?.didFail(with: .invalidDeviceInput)
         } catch {
+            delegate?.didFail(with: .invalidDeviceInput)
             return
         }
         
         if captureSession.canAddInput(videoInput) {
             captureSession.addInput(videoInput)
-            delegate?.didFail(with: .invalidDeviceInput)
         } else {
+            delegate?.didFail(with: .invalidDeviceInput)
             return
         }
         

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EADEC5112B3CD15800146D23 /* BarcodeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEC5102B3CD15800146D23 /* BarcodeScannerApp.swift */; };
-		EADEC5132B3CD15800146D23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEC5122B3CD15800146D23 /* ContentView.swift */; };
+		EADEC5132B3CD15800146D23 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEC5122B3CD15800146D23 /* BarcodeScannerView.swift */; };
 		EADEC5152B3CD15800146D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADEC5142B3CD15800146D23 /* Assets.xcassets */; };
 		EADEC5192B3CD15800146D23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADEC5182B3CD15800146D23 /* Preview Assets.xcassets */; };
 		EADEC5202B3DF32D00146D23 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEC51F2B3DF32D00146D23 /* ScannerVC.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		EADEC50D2B3CD15800146D23 /* BarcodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADEC5102B3CD15800146D23 /* BarcodeScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerApp.swift; sourceTree = "<group>"; };
-		EADEC5122B3CD15800146D23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EADEC5122B3CD15800146D23 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		EADEC5142B3CD15800146D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EADEC5162B3CD15800146D23 /* BarcodeScanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BarcodeScanner.entitlements; sourceTree = "<group>"; };
 		EADEC5182B3CD15800146D23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				EADEC5102B3CD15800146D23 /* BarcodeScannerApp.swift */,
-				EADEC5122B3CD15800146D23 /* ContentView.swift */,
+				EADEC5122B3CD15800146D23 /* BarcodeScannerView.swift */,
 				EADEC5232B3DFB6E00146D23 /* ScannerView.swift */,
 				EADEC51F2B3DF32D00146D23 /* ScannerVC.swift */,
 				EADEC5142B3CD15800146D23 /* Assets.xcassets */,
@@ -147,7 +147,7 @@
 			files = (
 				EADEC5202B3DF32D00146D23 /* ScannerVC.swift in Sources */,
 				EADEC5242B3DFB6E00146D23 /* ScannerView.swift in Sources */,
-				EADEC5132B3CD15800146D23 /* ContentView.swift in Sources */,
+				EADEC5132B3CD15800146D23 /* BarcodeScannerView.swift in Sources */,
 				EADEC5112B3CD15800146D23 /* BarcodeScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

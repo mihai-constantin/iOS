@@ -26,3 +26,4 @@
 * Navigation View, VStack, Label
 * Add camera privacy key-value pair in InfoPlist
 * AVFoundation, ScannerVC
+* UIViewController -> Coordinator -> SwiftUI View
