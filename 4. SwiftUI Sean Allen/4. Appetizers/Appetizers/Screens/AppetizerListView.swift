@@ -22,10 +22,10 @@ struct AppetizerListView: View {
                 .onAppear() {
                     viewModel.getAppetizers()
                 }
-                
-                if viewModel.isLoading {
-                    LoadingView()
-                }
+            }
+            
+            if viewModel.isLoading {
+                ProgressView()
             }
         }
         .alert(item: $viewModel.alertItem) { alertItem in
