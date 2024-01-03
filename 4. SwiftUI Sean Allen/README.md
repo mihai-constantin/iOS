@@ -34,3 +34,4 @@
 * NavigationStack
 * Model Data - conform to Decodable
 * Network Manager, URLSession, dataTask, JSON decoder
+* @escaping
