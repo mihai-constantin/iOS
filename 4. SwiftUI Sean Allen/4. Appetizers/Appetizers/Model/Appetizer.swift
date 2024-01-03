@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Appetizer: Decodable {
+struct Appetizer: Decodable, Identifiable {
     
     let id: Int
     let name: String
@@ -21,4 +21,18 @@ struct Appetizer: Decodable {
 
 struct AppetizerResponse {
     let request: [Appetizer]
+}
+
+struct MockData {
+    
+    static let sampleAppetizer = Appetizer(id: 1,
+                                           name: "Chicken Avocado Spring Roll",
+                                           description: "These won't last 10 seconds once they hit the table.",
+                                           price: 12.99,
+                                           imageURL: "https://seanallen-course-backend.herokuapp.com/images/appetizers/chicken-avocado-spring-roll.jpg",
+                                           calories: 480,
+                                           carbs: 19,
+                                           protein: 7)
+    
+    static let appetizers = [sampleAppetizer, sampleAppetizer, sampleAppetizer, sampleAppetizer]
 }

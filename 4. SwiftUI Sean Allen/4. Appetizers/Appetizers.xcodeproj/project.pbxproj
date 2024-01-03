@@ -15,6 +15,7 @@
 		9D6AB6592B4578D9000395B4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6582B4578D9000395B4 /* OrderView.swift */; };
 		9D6AB65B2B4578DE000395B4 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB65A2B4578DE000395B4 /* AccountView.swift */; };
 		9D6AB65E2B4582D0000395B4 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB65D2B4582D0000395B4 /* Appetizer.swift */; };
+		9D6AB6622B458828000395B4 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6612B458828000395B4 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9D6AB6582B4578D9000395B4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		9D6AB65A2B4578DE000395B4 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		9D6AB65D2B4582D0000395B4 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		9D6AB6612B458828000395B4 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		9D6AB6462B457749000395B4 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				9D6AB65F2B458815000395B4 /* Views */,
 				9D6AB6472B457749000395B4 /* AppetizersApp.swift */,
 				9D6AB6492B457749000395B4 /* AppetizersTabView.swift */,
 				9D6AB6552B457897000395B4 /* Screens */,
@@ -93,6 +96,22 @@
 				9D6AB65D2B4582D0000395B4 /* Appetizer.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9D6AB65F2B458815000395B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D6AB6602B45881B000395B4 /* View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9D6AB6602B45881B000395B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D6AB6612B458828000395B4 /* AppetizerListCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6AB6622B458828000395B4 /* AppetizerListCell.swift in Sources */,
 				9D6AB65E2B4582D0000395B4 /* Appetizer.swift in Sources */,
 				9D6AB64A2B457749000395B4 /* AppetizersTabView.swift in Sources */,
 				9D6AB6592B4578D9000395B4 /* OrderView.swift in Sources */,
