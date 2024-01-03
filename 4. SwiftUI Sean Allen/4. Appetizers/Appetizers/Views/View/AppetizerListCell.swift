@@ -20,6 +20,7 @@ struct AppetizerListCell: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
+                .frame(width: 120, height: 90)
 
 //            Spacer()
 
