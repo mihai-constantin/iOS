@@ -1,6 +1,6 @@
 # [SwiftUI Fundamentals](https://youtu.be/b1oC7sLIgpI?si=bXl6gPqR0uUHDnQ5)
 
-### Weather App
+### 1. Weather App
 * Basics: Text, Image, Button, HStack, VStack, ZStack 
 * Modifiers
 * Extract Views
@@ -9,7 +9,7 @@
 * iOS 16: gradient for ui color
 * if-else, switch statements in the **@ViewBuilder**
 
-### Apple-Frameworks App
+### 2. Apple-Frameworks App
 * LazyHGrid, LazyVGrid, GridItem
 * conform struct to **Hashable** and **Identifiable** in order to iterate using **ForEach**
 * NavigationView, ScrollView
@@ -22,9 +22,13 @@
 * System button
 * Navigation Stack
 
-### Barcode Scanner App
+### 3. Barcode Scanner App
 * Navigation View, VStack, Label
 * Add camera privacy key-value pair in InfoPlist
 * AVFoundation, ScannerVC
 * UIViewController -> Coordinator -> SwiftUI View
 * viewModel - observable object
+
+### 4. Appetizers App
+* TabView
+* NavigationStack
