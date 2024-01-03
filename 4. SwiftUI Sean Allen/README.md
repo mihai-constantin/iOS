@@ -32,3 +32,4 @@
 ### 4. Appetizers App
 * TabView
 * NavigationStack
+* Model Data - conform to Decodable

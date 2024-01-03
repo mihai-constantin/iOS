@@ -14,6 +14,7 @@
 		9D6AB6572B4578CF000395B4 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6562B4578CF000395B4 /* AppetizerListView.swift */; };
 		9D6AB6592B4578D9000395B4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6582B4578D9000395B4 /* OrderView.swift */; };
 		9D6AB65B2B4578DE000395B4 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB65A2B4578DE000395B4 /* AccountView.swift */; };
+		9D6AB65E2B4582D0000395B4 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB65D2B4582D0000395B4 /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9D6AB6562B4578CF000395B4 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		9D6AB6582B4578D9000395B4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		9D6AB65A2B4578DE000395B4 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		9D6AB65D2B4582D0000395B4 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9D6AB6472B457749000395B4 /* AppetizersApp.swift */,
 				9D6AB6492B457749000395B4 /* AppetizersTabView.swift */,
 				9D6AB6552B457897000395B4 /* Screens */,
+				9D6AB65C2B4582B1000395B4 /* Model */,
 				9D6AB64B2B45774A000395B4 /* Assets.xcassets */,
 				9D6AB64D2B45774A000395B4 /* Preview Content */,
 			);
@@ -82,6 +85,14 @@
 				9D6AB6582B4578D9000395B4 /* OrderView.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		9D6AB65C2B4582B1000395B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D6AB65D2B4582D0000395B4 /* Appetizer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6AB65E2B4582D0000395B4 /* Appetizer.swift in Sources */,
 				9D6AB64A2B457749000395B4 /* AppetizersTabView.swift in Sources */,
 				9D6AB6592B4578D9000395B4 /* OrderView.swift in Sources */,
 				9D6AB6482B457749000395B4 /* AppetizersApp.swift in Sources */,
