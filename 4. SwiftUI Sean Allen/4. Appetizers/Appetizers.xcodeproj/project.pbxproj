@@ -20,6 +20,7 @@
 		9D6AB6672B45AA3B000395B4 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6662B45AA3B000395B4 /* APError.swift */; };
 		9D6AB6692B45AC6C000395B4 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6682B45AC6C000395B4 /* AppetizerListViewModel.swift */; };
 		9D6AB66C2B45B9FA000395B4 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB66B2B45B9FA000395B4 /* Alert.swift */; };
+		9D6AB66E2B45C74C000395B4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB66D2B45C74C000395B4 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		9D6AB6662B45AA3B000395B4 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		9D6AB6682B45AC6C000395B4 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		9D6AB66B2B45B9FA000395B4 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		9D6AB66D2B45C74C000395B4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				9D6AB6612B458828000395B4 /* AppetizerListCell.swift */,
+				9D6AB66D2B45C74C000395B4 /* LoadingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				9D6AB65E2B4582D0000395B4 /* Appetizer.swift in Sources */,
 				9D6AB6692B45AC6C000395B4 /* AppetizerListViewModel.swift in Sources */,
 				9D6AB64A2B457749000395B4 /* AppetizersTabView.swift in Sources */,
+				9D6AB66E2B45C74C000395B4 /* LoadingView.swift in Sources */,
 				9D6AB6592B4578D9000395B4 /* OrderView.swift in Sources */,
 				9D6AB6652B45A087000395B4 /* NetworkManager.swift in Sources */,
 				9D6AB6482B457749000395B4 /* AppetizersApp.swift in Sources */,

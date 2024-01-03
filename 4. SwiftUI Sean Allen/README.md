@@ -35,3 +35,5 @@
 * Model Data - conform to Decodable
 * Network Manager, URLSession, dataTask, JSON decoder
 * @escaping
+* AlertItem, AlertContext
+* Loading Spinner View (ProgressView - new iOS)
