@@ -55,7 +55,6 @@ final class NetworkManager {
             let decodedData = try decoder.decode(AppetizerResponse.self, from: data)
             return decodedData
         } catch {
-            print(error)
             return nil
         }
     }
