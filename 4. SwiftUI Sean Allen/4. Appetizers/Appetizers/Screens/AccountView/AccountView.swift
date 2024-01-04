@@ -9,28 +9,22 @@ import SwiftUI
 
 struct AccountView: View {
     
-    @State var firstName: String = ""
-    @State var lastName: String = ""
-    @State var email: String = ""
-    @State var date = Date()
-    
-    @State var extraNapkins = false
-    @State var frequentRefills = false
+   @StateObject var viewModel = AccountViewModel()
     
     var body: some View {
         NavigationStack {
             Form {
                 Section("Personal Info") {
-                    TextField("First Name", text: $firstName)
+                    TextField("First Name", text: $viewModel.firstName)
                     
-                    TextField("Last Name", text: $lastName)
+                    TextField("Last Name", text: $viewModel.lastName)
                     
-                    TextField("Email", text: $email)
+                    TextField("Email", text: $viewModel.email)
                         .keyboardType(.emailAddress)
                         .textInputAutocapitalization(.none)
                         .autocorrectionDisabled()
                     
-                    DatePicker("Birthday", selection: $date, displayedComponents: .date)
+                    DatePicker("Birthday", selection: $viewModel.date, displayedComponents: .date)
                     
                     Button(action: {
                         print("Save")
@@ -41,9 +35,9 @@ struct AccountView: View {
                 }
                 
                 Section("Requests") {
-                    Toggle("Extra Napkins", isOn: $extraNapkins)
+                    Toggle("Extra Napkins", isOn: $viewModel.extraNapkins)
                         
-                    Toggle("Frequent Refills", isOn: $frequentRefills)
+                    Toggle("Frequent Refills", isOn: $viewModel.frequentRefills)
                 }
                 .tint(Color.brandPrimaryColor)
                 
