@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Appetizer: Decodable, Identifiable {
+struct Appetizer: Decodable, Identifiable, Hashable {
     let id: Int
     let name: String
     let description: String
