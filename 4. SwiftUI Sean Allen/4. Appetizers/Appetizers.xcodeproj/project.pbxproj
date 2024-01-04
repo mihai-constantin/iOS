@@ -99,10 +99,9 @@
 		9D6AB6552B457897000395B4 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				9D6AB6562B4578CF000395B4 /* AppetizerListView.swift */,
-				9D6AB6682B45AC6C000395B4 /* AppetizerListViewModel.swift */,
-				9D6AB65A2B4578DE000395B4 /* AccountView.swift */,
-				9D6AB6582B4578D9000395B4 /* OrderView.swift */,
+				9D6AB6732B46BD47000395B4 /* AppetizerListView */,
+				9D6AB6742B46BD54000395B4 /* AccountView */,
+				9D6AB6752B46BD69000395B4 /* OrderView */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -118,18 +117,18 @@
 		9D6AB65F2B458815000395B4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9D6AB6602B45881B000395B4 /* View */,
+				9D6AB6762B46BE68000395B4 /* UIKit Components */,
+				9D6AB6602B45881B000395B4 /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		9D6AB6602B45881B000395B4 /* View */ = {
+		9D6AB6602B45881B000395B4 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				9D6AB6612B458828000395B4 /* AppetizerListCell.swift */,
-				9D6AB66D2B45C74C000395B4 /* LoadingView.swift */,
 			);
-			path = View;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		9D6AB6632B45A076000395B4 /* Network */ = {
@@ -149,6 +148,39 @@
 				9D6AB66F2B46AEE1000395B4 /* Color+Ext.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		9D6AB6732B46BD47000395B4 /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				9D6AB6562B4578CF000395B4 /* AppetizerListView.swift */,
+				9D6AB6682B45AC6C000395B4 /* AppetizerListViewModel.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		9D6AB6742B46BD54000395B4 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				9D6AB65A2B4578DE000395B4 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		9D6AB6752B46BD69000395B4 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				9D6AB6582B4578D9000395B4 /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		9D6AB6762B46BE68000395B4 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				9D6AB66D2B45C74C000395B4 /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

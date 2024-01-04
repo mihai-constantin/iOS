@@ -27,7 +27,6 @@ struct AppetizerListCell: View {
                     .font(.headline)
                     .fontWeight(.semibold)
                     .foregroundStyle(.secondary)
-                    
             }
             .padding(.leading)
         }
