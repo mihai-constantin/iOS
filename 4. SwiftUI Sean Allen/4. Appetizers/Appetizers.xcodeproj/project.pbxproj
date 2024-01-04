@@ -22,6 +22,7 @@
 		9D6AB66C2B45B9FA000395B4 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB66B2B45B9FA000395B4 /* Alert.swift */; };
 		9D6AB66E2B45C74C000395B4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB66D2B45C74C000395B4 /* LoadingView.swift */; };
 		9D6AB6702B46AEE1000395B4 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB66F2B46AEE1000395B4 /* Color+Ext.swift */; };
+		9D6AB6722B46B97C000395B4 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6712B46B97C000395B4 /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		9D6AB66B2B45B9FA000395B4 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		9D6AB66D2B45C74C000395B4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		9D6AB66F2B46AEE1000395B4 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		9D6AB6712B46B97C000395B4 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				9D6AB6662B45AA3B000395B4 /* APError.swift */,
 				9D6AB6642B45A087000395B4 /* NetworkManager.swift */,
+				9D6AB6712B46B97C000395B4 /* RemoteImage.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				9D6AB66E2B45C74C000395B4 /* LoadingView.swift in Sources */,
 				9D6AB6592B4578D9000395B4 /* OrderView.swift in Sources */,
 				9D6AB6652B45A087000395B4 /* NetworkManager.swift in Sources */,
+				9D6AB6722B46B97C000395B4 /* RemoteImage.swift in Sources */,
 				9D6AB6482B457749000395B4 /* AppetizersApp.swift in Sources */,
 				9D6AB66C2B45B9FA000395B4 /* Alert.swift in Sources */,
 				9D6AB6572B4578CF000395B4 /* AppetizerListView.swift in Sources */,

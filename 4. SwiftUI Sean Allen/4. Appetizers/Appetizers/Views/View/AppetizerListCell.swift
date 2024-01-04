@@ -13,9 +13,7 @@ struct AppetizerListCell: View {
     
     var body: some View {
         HStack {
-            Image("chicken-avocado-spring-roll")
-                .renderingMode(.original)
-                .resizable()
+            AppetizerRemoteImage(urlString: appetizer.imageURL)
                 .aspectRatio(contentMode: .fit)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 .frame(width: 120, height: 90)
