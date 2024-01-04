@@ -13,16 +13,12 @@ struct AppetizerListCell: View {
     
     var body: some View {
         HStack {
-//            Spacer()
-
             Image("chicken-avocado-spring-roll")
                 .renderingMode(.original)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 .frame(width: 120, height: 90)
-
-//            Spacer()
 
             VStack(alignment: .leading, spacing: 5) {
                 Text(appetizer.name)
@@ -36,8 +32,6 @@ struct AppetizerListCell: View {
                     
             }
             .padding(.leading)
-            
-//            Spacer()
         }
     }
 }

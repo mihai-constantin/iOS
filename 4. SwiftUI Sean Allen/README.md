@@ -37,3 +37,4 @@
 * @escaping
 * AlertItem, AlertContext
 * Loading Spinner View (ProgressView - new iOS)
+* Color Extension

@@ -21,6 +21,7 @@
 		9D6AB6692B45AC6C000395B4 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6682B45AC6C000395B4 /* AppetizerListViewModel.swift */; };
 		9D6AB66C2B45B9FA000395B4 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB66B2B45B9FA000395B4 /* Alert.swift */; };
 		9D6AB66E2B45C74C000395B4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB66D2B45C74C000395B4 /* LoadingView.swift */; };
+		9D6AB6702B46AEE1000395B4 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB66F2B46AEE1000395B4 /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		9D6AB6682B45AC6C000395B4 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		9D6AB66B2B45B9FA000395B4 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		9D6AB66D2B45C74C000395B4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9D6AB66F2B46AEE1000395B4 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				9D6AB66B2B45B9FA000395B4 /* Alert.swift */,
+				9D6AB66F2B46AEE1000395B4 /* Color+Ext.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				9D6AB6672B45AA3B000395B4 /* APError.swift in Sources */,
 				9D6AB65E2B4582D0000395B4 /* Appetizer.swift in Sources */,
 				9D6AB6692B45AC6C000395B4 /* AppetizerListViewModel.swift in Sources */,
+				9D6AB6702B46AEE1000395B4 /* Color+Ext.swift in Sources */,
 				9D6AB64A2B457749000395B4 /* AppetizersTabView.swift in Sources */,
 				9D6AB66E2B45C74C000395B4 /* LoadingView.swift in Sources */,
 				9D6AB6592B4578D9000395B4 /* OrderView.swift in Sources */,

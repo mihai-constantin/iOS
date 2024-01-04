@@ -31,4 +31,3 @@ struct AlertContext {
                                             message: Text("Unable to complete the request."),
                                             dismissButton: .default(Text("Ok")))
 }
-

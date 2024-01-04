@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct Appetizer: Decodable, Identifiable {
-    
     let id: Int
     let name: String
     let description: String
@@ -24,7 +23,6 @@ struct AppetizerResponse: Decodable {
 }
 
 struct MockData {
-    
     static let sampleAppetizer = Appetizer(id: 1,
                                            name: "Chicken Avocado Spring Roll",
                                            description: "These won't last 10 seconds once they hit the table.",
