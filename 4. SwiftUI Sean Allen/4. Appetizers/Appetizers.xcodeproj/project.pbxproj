@@ -24,6 +24,7 @@
 		9D6AB6702B46AEE1000395B4 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB66F2B46AEE1000395B4 /* Color+Ext.swift */; };
 		9D6AB6722B46B97C000395B4 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6712B46B97C000395B4 /* RemoteImage.swift */; };
 		9D6AB6792B46BFCC000395B4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6782B46BFCC000395B4 /* DetailView.swift */; };
+		9D6AB67E2B46EB0F000395B4 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB67D2B46EB0F000395B4 /* APButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		9D6AB66F2B46AEE1000395B4 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		9D6AB6712B46B97C000395B4 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		9D6AB6782B46BFCC000395B4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9D6AB67D2B46EB0F000395B4 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +121,9 @@
 		9D6AB65F2B458815000395B4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9D6AB6762B46BE68000395B4 /* UIKit Components */,
 				9D6AB6602B45881B000395B4 /* Cells */,
+				9D6AB67C2B46EAFD000395B4 /* Buttons */,
+				9D6AB6762B46BE68000395B4 /* UIKit Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,14 @@
 				9D6AB6782B46BFCC000395B4 /* DetailView.swift */,
 			);
 			path = DetailView;
+			sourceTree = "<group>";
+		};
+		9D6AB67C2B46EAFD000395B4 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				9D6AB67D2B46EB0F000395B4 /* APButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 				9D6AB6692B45AC6C000395B4 /* AppetizerListViewModel.swift in Sources */,
 				9D6AB6702B46AEE1000395B4 /* Color+Ext.swift in Sources */,
 				9D6AB64A2B457749000395B4 /* AppetizersTabView.swift in Sources */,
+				9D6AB67E2B46EB0F000395B4 /* APButton.swift in Sources */,
 				9D6AB66E2B45C74C000395B4 /* LoadingView.swift in Sources */,
 				9D6AB6592B4578D9000395B4 /* OrderView.swift in Sources */,
 				9D6AB6652B45A087000395B4 /* NetworkManager.swift in Sources */,

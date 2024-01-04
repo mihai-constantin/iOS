@@ -19,7 +19,6 @@ struct DetailView: View {
                 .aspectRatio(contentMode: .fit)
             
             VStack {
-                
                 Text(appetizer.name)
                     .font(.title2)
                     .fontWeight(.medium)
@@ -30,10 +29,10 @@ struct DetailView: View {
                     .font(.body)
                     .padding()
                 
-                HStack {
-                    NutritionalView(name: "Calories", data: "\(appetizer.calories)")
-                    NutritionalView(name: "Carbs", data: "\(appetizer.carbs) g")
-                    NutritionalView(name: "Protein", data: "\(appetizer.protein) g")
+                HStack(spacing: 40) {
+                    NutritionInfoView(name: "Calories", data: "\(appetizer.calories)")
+                    NutritionInfoView(name: "Carbs", data: "\(appetizer.carbs) g")
+                    NutritionInfoView(name: "Protein", data: "\(appetizer.protein) g")
                 }
                 .padding()
             }
@@ -41,13 +40,7 @@ struct DetailView: View {
             Button(action: {
                 
             }, label: {
-                Text("$\(appetizer.price, specifier: "%.2f") - Add to Order")
-                    .font(.title3)
-                    .fontWeight(.semibold)
-                    .frame(width: 260, height: 50)
-                    .background(Color.brandPrimary)
-                    .foregroundStyle(.white)
-                    .clipShape(RoundedRectangle(cornerSize: CGSize(width: 20, height: 10)))
+                APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
             })
             .padding()
         }
@@ -68,8 +61,7 @@ struct DetailView: View {
     }
 }
                     
-struct NutritionalView: View {
-    
+struct NutritionInfoView: View {
     var name: String
     var data: String
     
