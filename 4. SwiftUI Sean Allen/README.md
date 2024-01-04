@@ -40,4 +40,4 @@
 * Color Extension
 * Cache Mechanism, get image - network call, image loader helper
 * DetailView - navigationLink + navigationDestination / onTapGesture + @State vars
-
+* Form, Sections
