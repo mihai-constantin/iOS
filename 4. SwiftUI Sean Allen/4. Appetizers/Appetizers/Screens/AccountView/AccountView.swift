@@ -38,7 +38,7 @@ struct AccountView: View {
                         
                     Toggle("Frequent Refills", isOn: $viewModel.user.frequentRefills)
                 }
-                .tint(Color.brandPrimaryColor)
+                .tint(Color.accentColor)
             }
             .navigationTitle("🧔🏻‍♂️ Account")
         }

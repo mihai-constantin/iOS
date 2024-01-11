@@ -16,7 +16,7 @@ struct APButton: View {
             .font(.title3)
             .fontWeight(.semibold)
             .frame(width: 260, height: 50)
-            .background(Color.brandPrimary)
+            .background(Color.accentColor)
             .foregroundStyle(.white)
             .clipShape(RoundedRectangle(cornerSize: CGSize(width: 20, height: 10)))
     }

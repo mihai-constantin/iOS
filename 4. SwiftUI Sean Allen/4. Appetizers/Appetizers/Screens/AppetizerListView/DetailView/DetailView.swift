@@ -58,7 +58,7 @@ struct DetailView: View {
             }, label: {
                 Image(systemName: "xmark.circle.fill")
                     .font(.title)
-                    .foregroundStyle(.brandPrimary)
+                    .foregroundStyle(Color.accentColor)
             })
         }
     }
