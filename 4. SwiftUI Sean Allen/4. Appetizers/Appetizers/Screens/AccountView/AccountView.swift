@@ -15,32 +15,30 @@ struct AccountView: View {
         NavigationStack {
             Form {
                 Section("Personal Info") {
-                    TextField("First Name", text: $viewModel.firstName)
+                    TextField("First Name", text: $viewModel.user.firstName)
                     
-                    TextField("Last Name", text: $viewModel.lastName)
+                    TextField("Last Name", text: $viewModel.user.lastName)
                     
-                    TextField("Email", text: $viewModel.email)
+                    TextField("Email", text: $viewModel.user.email)
                         .keyboardType(.emailAddress)
                         .textInputAutocapitalization(.none)
                         .autocorrectionDisabled()
                     
-                    DatePicker("Birthday", selection: $viewModel.date, displayedComponents: .date)
+                    DatePicker("Birthday", selection: $viewModel.user.date, displayedComponents: .date)
                     
                     Button(action: {
                         viewModel.saveChanges()
                     }, label: {
                         Text("Save changes")
-                        
                     })
                 }
                 
                 Section("Requests") {
-                    Toggle("Extra Napkins", isOn: $viewModel.extraNapkins)
+                    Toggle("Extra Napkins", isOn: $viewModel.user.extraNapkins)
                         
-                    Toggle("Frequent Refills", isOn: $viewModel.frequentRefills)
+                    Toggle("Frequent Refills", isOn: $viewModel.user.frequentRefills)
                 }
                 .tint(Color.brandPrimaryColor)
-                
             }
             .navigationTitle("🧔🏻‍♂️ Account")
         }
@@ -49,6 +47,9 @@ struct AccountView: View {
                   message: alertItem.message,
                   dismissButton: alertItem.dismissButton)
             
+        }
+        .onAppear() {
+            viewModel.getUser()
         }
     }
 }
