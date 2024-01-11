@@ -30,6 +30,7 @@
 		9DE7415D2B4FEF860082C35F /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7415C2B4FEF860082C35F /* OrderViewModel.swift */; };
 		9DE7415F2B4FF4600082C35F /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7415E2B4FF4600082C35F /* EmptyState.swift */; };
 		9DE741642B4FFD3E0082C35F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE741632B4FFD3E0082C35F /* Order.swift */; };
+		9DE741662B5021250082C35F /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE741652B5021250082C35F /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		9DE7415C2B4FEF860082C35F /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		9DE7415E2B4FF4600082C35F /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		9DE741632B4FFD3E0082C35F /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		9DE741652B5021250082C35F /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				9D6AB6602B45881B000395B4 /* Cells */,
 				9D6AB67C2B46EAFD000395B4 /* Buttons */,
 				9D6AB6762B46BE68000395B4 /* UIKit Components */,
+				9DE741652B5021250082C35F /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				9D6AB64A2B457749000395B4 /* AppetizersTabView.swift in Sources */,
 				9DE7415D2B4FEF860082C35F /* OrderViewModel.swift in Sources */,
 				9D6AB67E2B46EB0F000395B4 /* APButton.swift in Sources */,
+				9DE741662B5021250082C35F /* CustomModifiers.swift in Sources */,
 				9D6AB66E2B45C74C000395B4 /* LoadingView.swift in Sources */,
 				9D6AB6592B4578D9000395B4 /* OrderView.swift in Sources */,
 				9D6AB6652B45A087000395B4 /* NetworkManager.swift in Sources */,
