@@ -45,3 +45,4 @@
 * OrderView - swipe to delete
 * Empty State for order view
 * @@EnvironmentObject
+* bage modifier for tabItem
