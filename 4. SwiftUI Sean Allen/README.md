@@ -42,4 +42,4 @@
 * DetailView - navigationLink + navigationDestination / onTapGesture + @State vars
 * Form, Sections
 * @AppStorage - (UIKIT - UserDefaults) - encode and decode user profile data
-
+* OrderView - swipe to delete

@@ -28,6 +28,7 @@
 		9D6AB67E2B46EB0F000395B4 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB67D2B46EB0F000395B4 /* APButton.swift */; };
 		9D6AB6802B46FD29000395B4 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB67F2B46FD29000395B4 /* AccountViewModel.swift */; };
 		9D6AB6832B46FFD5000395B4 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AB6822B46FFD5000395B4 /* String+Ext.swift */; };
+		9DE7415D2B4FEF860082C35F /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7415C2B4FEF860082C35F /* OrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		9D6AB67D2B46EB0F000395B4 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		9D6AB67F2B46FD29000395B4 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		9D6AB6822B46FFD5000395B4 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		9DE7415C2B4FEF860082C35F /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				9D6AB6582B4578D9000395B4 /* OrderView.swift */,
+				9DE7415C2B4FEF860082C35F /* OrderViewModel.swift */,
 			);
 			path = OrderView;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				9D6AB6692B45AC6C000395B4 /* AppetizerListViewModel.swift in Sources */,
 				9D6AB6702B46AEE1000395B4 /* Color+Ext.swift in Sources */,
 				9D6AB64A2B457749000395B4 /* AppetizersTabView.swift in Sources */,
+				9DE7415D2B4FEF860082C35F /* OrderViewModel.swift in Sources */,
 				9D6AB67E2B46EB0F000395B4 /* APButton.swift in Sources */,
 				9D6AB66E2B45C74C000395B4 /* LoadingView.swift in Sources */,
 				9D6AB6592B4578D9000395B4 /* OrderView.swift in Sources */,
