@@ -44,3 +44,4 @@
 * @AppStorage - (UIKIT - UserDefaults) - encode and decode user profile data
 * OrderView - swipe to delete
 * Empty State for order view
+* @@EnvironmentObject

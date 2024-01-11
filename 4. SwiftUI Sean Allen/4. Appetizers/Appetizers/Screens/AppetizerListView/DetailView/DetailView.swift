@@ -9,6 +9,8 @@ import SwiftUI
 
 struct DetailView: View {
     
+    @EnvironmentObject var order: Order
+    
     let appetizer: Appetizer
     
     @Binding var isShowingDetailView: Bool
@@ -38,7 +40,8 @@ struct DetailView: View {
             }
              
             Button(action: {
-                
+                order.add(appetizer)
+                isShowingDetailView = false
             }, label: {
                 APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
             })
