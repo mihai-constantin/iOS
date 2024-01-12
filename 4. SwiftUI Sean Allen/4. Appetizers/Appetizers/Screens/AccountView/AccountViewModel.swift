@@ -46,7 +46,7 @@ final class AccountViewModel: ObservableObject {
     
     // AppStorage - get user profile
     func getUser() {
-        guard let userData = userData else { return }
+        guard let userData else { return }
         
         do {
             user = try JSONDecoder().decode(User.self, from: userData)
