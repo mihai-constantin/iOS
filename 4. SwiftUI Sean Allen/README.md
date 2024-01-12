@@ -53,5 +53,9 @@
 * RegexBuilder
 
 #### Optimizations
-* @ObservedObject - injecting a viewModel - Apple-Frameworks-App
+##### Apple-Frameworks App
+* @ObservedObject - injecting a viewModel
 * using Link to open a safari url
+
+##### Barcode Scanner App
+* small refactor - using Text for alerts instead of String
