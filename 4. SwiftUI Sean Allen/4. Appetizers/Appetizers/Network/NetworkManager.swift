@@ -57,7 +57,7 @@ final class NetworkManager {
             throw APError.invalidURL
         }
         
-        let (data, _) = try await URLSession(configuration: .default).data(from: url)
+        let (data, _) = try await URLSession.shared.data(from: url)
         
         do {
             return try JSONDecoder().decode(AppetizerResponse.self, from: data).request
