@@ -59,3 +59,7 @@
 
 ##### Barcode Scanner App
 * small refactor - using Text for alerts instead of String
+
+##### Appetizers App
+* use native progress view
+* limit data picker range, date extension
