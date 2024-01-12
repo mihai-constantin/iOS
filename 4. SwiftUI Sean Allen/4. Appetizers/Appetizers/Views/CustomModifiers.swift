@@ -21,3 +21,12 @@ extension View {
         self.modifier(StandardButtonStyle())
     }
 }
+
+struct AppetizerImageCellStyle: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .aspectRatio(contentMode: .fit)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+            .frame(width: 120, height: 90)
+    }
+}
