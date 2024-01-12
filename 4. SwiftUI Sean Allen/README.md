@@ -54,3 +54,4 @@
 
 #### Optimizations
 * @ObservedObject - injecting a viewModel - Apple-Frameworks-App
+* using Link to open a safari url
