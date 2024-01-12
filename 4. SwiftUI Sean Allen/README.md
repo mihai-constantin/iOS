@@ -51,3 +51,6 @@
 * Async / Await Network calls - @MainActor, Task, .task 
 * AsyncImage - no cache
 * RegexBuilder
+
+#### Optimizations
+* @ObservedObject - injecting a viewModel - Apple-Frameworks-App
