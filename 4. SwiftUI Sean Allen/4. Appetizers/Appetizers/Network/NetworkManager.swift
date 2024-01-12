@@ -50,7 +50,7 @@ final class NetworkManager {
     }
     
     // MARK: - GET Appetizers - Await / Async
-    func getAppetizers() async throws -> AppetizerResponse? {
+    func getAppetizers() async throws -> [Appetizer] {
         let urlString = baseURL + "appetizers"
         
         guard let url = URL(string: urlString) else {
@@ -59,7 +59,11 @@ final class NetworkManager {
         
         let (data, _) = try await URLSession(configuration: .default).data(from: url)
         
-        return self.parseJSON(data)
+        do {
+            return try JSONDecoder().decode(AppetizerResponse.self, from: data).request
+        } catch {
+            throw APError.invalidData
+        }
     }
     
     func parseJSON(_ data: Data) -> AppetizerResponse? {

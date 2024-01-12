@@ -48,9 +48,7 @@ import SwiftUI
         
         Task {
             do {
-                if let data = try await NetworkManager.shared.getAppetizers() {
-                    self.appetizers = data.request
-                }
+                self.appetizers = try await NetworkManager.shared.getAppetizers()
                 isLoading = false
             } catch {
                 self.alertItem = AlertContext.invalidResponse
