@@ -48,3 +48,4 @@
 * bage modifier for tabItem
 * custom modifiers
 * @FocusState, add toolbar item for keyboard
+* Async / Await Network calls - @MainActor, Task, .task 

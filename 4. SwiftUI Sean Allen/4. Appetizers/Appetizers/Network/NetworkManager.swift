@@ -19,9 +19,8 @@ final class NetworkManager {
     
     let baseURL = "https://seanallen-course-backend.herokuapp.com/swiftui-fundamentals/"
     
-    // MARK: - GET Appetizers
-    
-    func getAppetizers(completed: @escaping (Result<AppetizerResponse, APError>) -> Void) {
+    // MARK: - GET Appetizers - OLD APPROACH
+    func oldGetAppetizers(completed: @escaping (Result<AppetizerResponse, APError>) -> Void) {
         let urlString = baseURL + "appetizers"
         
         guard let url = URL(string: urlString) else {
@@ -50,6 +49,19 @@ final class NetworkManager {
         task.resume()
     }
     
+    // MARK: - GET Appetizers - Await / Async
+    func getAppetizers() async throws -> AppetizerResponse? {
+        let urlString = baseURL + "appetizers"
+        
+        guard let url = URL(string: urlString) else {
+            throw APError.invalidURL
+        }
+        
+        let (data, _) = try await URLSession(configuration: .default).data(from: url)
+        
+        return self.parseJSON(data)
+    }
+    
     func parseJSON(_ data: Data) -> AppetizerResponse? {
         let decoder = JSONDecoder()
         do {
@@ -61,7 +73,6 @@ final class NetworkManager {
     }
     
     // MARK: - GET image
-    
     func getImage(with urlString: String, completed: @escaping (UIImage?) -> Void) {
         let cacheKey = NSString(string: urlString)
         

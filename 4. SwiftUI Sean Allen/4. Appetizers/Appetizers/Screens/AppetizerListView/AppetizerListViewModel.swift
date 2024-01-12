@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-final class AppetizerListViewModel: ObservableObject {
+@MainActor final class AppetizerListViewModel: ObservableObject {
     
     @Published var appetizers: [Appetizer] = []
     @Published var alertItem: AlertItem?
@@ -16,9 +16,10 @@ final class AppetizerListViewModel: ObservableObject {
     @Published var selectedAppetizer: Appetizer?
     @Published var isShowingDetailView: Bool = false
     
-    func getAppetizers() {
+    // MARK: - OLD APPROACH
+    func oldGetAppetizers() {
         isLoading = true
-        NetworkManager.shared.getAppetizers { result in
+        NetworkManager.shared.oldGetAppetizers { result in
             DispatchQueue.main.async {
                 self.isLoading = false
                 switch result {
@@ -39,5 +40,23 @@ final class AppetizerListViewModel: ObservableObject {
                 }
             }
         }
+    }
+    
+    // MARK: - Async/Await
+    func getAppetizers() {
+        isLoading = true
+        
+        Task {
+            do {
+                if let data = try await NetworkManager.shared.getAppetizers() {
+                    self.appetizers = data.request
+                }
+                isLoading = false
+            } catch {
+                self.alertItem = AlertContext.invalidResponse
+                isLoading = false
+            }
+        }
+        
     }
 }
