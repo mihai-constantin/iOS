@@ -63,3 +63,6 @@
 ##### Appetizers App
 * use native progress view
 * limit data picker range, date extension
+
+#### iOS 17
+* @Observable MACRO
