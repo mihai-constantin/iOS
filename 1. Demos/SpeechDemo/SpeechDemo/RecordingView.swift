@@ -17,6 +17,7 @@ struct RecordingView: View {
     var body: some View {
         
         ScrollView {
+            
             VStack {
                 
                 Button(action: {

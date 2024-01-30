@@ -44,7 +44,7 @@
 * @AppStorage - (UIKIT - UserDefaults) - encode and decode user profile data
 * OrderView - swipe to delete
 * Empty State for order view
-* @@EnvironmentObject
+* @EnvironmentObject
 * bage modifier for tabItem
 * custom modifiers
 * @FocusState, add toolbar item for keyboard

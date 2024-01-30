@@ -7,4 +7,17 @@
     * https://developer.apple.com/tutorials/swiftui
     * https://www.apple.com/education/k12/learn-to-code/  
 
-### Day 1
+### Days 1-14 - Introduction to Swift
+* Variables, constants
+* Data types: String, Int, Double, Bool
+
+```
+# Multi-line string
+var greeting = """
+Hello,
+playground
+"""
+
+# Int separator
+var a = 100_000_000
+```

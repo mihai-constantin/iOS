@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D0473162B56B4BF00F257AA /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0473152B56B4BF00F257AA /* SpeechRecognizer.swift */; };
 		9DE0042F2B30555F00F4B938 /* SpeechDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE0042E2B30555F00F4B938 /* SpeechDemoApp.swift */; };
 		9DE004332B30556100F4B938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE004322B30556100F4B938 /* Assets.xcassets */; };
 		9DE004362B30556100F4B938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE004352B30556100F4B938 /* Preview Assets.xcassets */; };
 		9DE004462B30629100F4B938 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE004452B30629100F4B938 /* RecordingView.swift */; };
-		9DE004482B306D1600F4B938 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE004472B306D1600F4B938 /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D0473152B56B4BF00F257AA /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		9DE0042B2B30555F00F4B938 /* SpeechDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE0042E2B30555F00F4B938 /* SpeechDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDemoApp.swift; sourceTree = "<group>"; };
 		9DE004322B30556100F4B938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE004352B30556100F4B938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DE004452B30629100F4B938 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
-		9DE004472B306D1600F4B938 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		9DE004492B306E7600F4B938 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				9DE004472B306D1600F4B938 /* SpeechRecognizer.swift */,
+				9D0473152B56B4BF00F257AA /* SpeechRecognizer.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -148,9 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE004482B306D1600F4B938 /* SpeechRecognizer.swift in Sources */,
 				9DE0042F2B30555F00F4B938 /* SpeechDemoApp.swift in Sources */,
 				9DE004462B30629100F4B938 /* RecordingView.swift in Sources */,
+				9D0473162B56B4BF00F257AA /* SpeechRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
