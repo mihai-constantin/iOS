@@ -8,8 +8,9 @@
     * https://www.apple.com/education/k12/learn-to-code/  
 
 ### Days 1-14 - Introduction to Swift
-* Variables, constants
+* Variables (var), constants (let)
 * Data types: String, Int, Double, Bool
+* String interpolation
 
 ```
 # Multi-line string
@@ -21,3 +22,7 @@ playground
 # Int separator
 var a = 100_000_000
 ```
+
+* Complex data types: arrays, dictionaries
+
+### Project 1 - WeSplit
