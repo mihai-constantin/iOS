@@ -15,5 +15,8 @@
 ## [Ray Wenderlich Learning Paths](https://www.raywenderlich.com/ios/paths/learn)
 * [README](./3.%20Ray%20Wenderlich/README.md)
 
-## [SwiftUI Fundamentals Sean Allen](https://youtu.be/b1oC7sLIgpI?si=bXl6gPqR0uUHDnQ5)
+## ✅ [SwiftUI Fundamentals Sean Allen](https://youtu.be/b1oC7sLIgpI?si=bXl6gPqR0uUHDnQ5)
 * [README](./4.%20SwiftUI%20Sean%20Allen/README.md)
+
+## [Introducing SwiftUI](https://developer.apple.com/tutorials/swiftui/)
+* [README](./5.%20Introducing%20to%20SwiftUI/README.md)
