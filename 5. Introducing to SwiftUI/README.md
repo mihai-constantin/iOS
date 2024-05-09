@@ -9,3 +9,7 @@
     * NavigationSplitView
     * navigation using NavigationLink
     
+* [Handling user input](https://developer.apple.com/tutorials/swiftui/handling-user-input)
+    * Add toggle for filter favorites landmarks
+    * Create @Observable data model + used it as environment variable
+    
