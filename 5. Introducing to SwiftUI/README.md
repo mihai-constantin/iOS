@@ -12,4 +12,8 @@
 * [Handling user input](https://developer.apple.com/tutorials/swiftui/handling-user-input)
     * Add toggle for filter favorites landmarks
     * Create @Observable data model + used it as environment variable
-    
+
+
+## Chapter 2 - Drawing and animation
+* [Drawing paths and shapes](https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes)
+    *  

@@ -20,3 +20,6 @@
 
 ## [Introducing SwiftUI](https://developer.apple.com/tutorials/swiftui/)
 * [README](./5.%20Introducing%20to%20SwiftUI/README.md)
+
+## Swiftful Thinking [Youtube]
+* [README](./6.%20Swiftful%20Thinking/README.md)
