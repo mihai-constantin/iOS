@@ -36,12 +36,10 @@ struct PostsView_Previews: PreviewProvider {
     
 //    static let networkManager = MockDataService(posts: [
 //        PostModel(id: 3, userId: 3, title: "Three", body: "three")
-//    
+//
 //    ])
     
     static var previews: some View {
         PostsView(networkManager: networkManager)
     }
-    
-    
 }
