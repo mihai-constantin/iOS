@@ -9,7 +9,11 @@ import SwiftUI
 
 struct UITestingView: View {
     
-    @StateObject private var vm = UITestingViewModel()
+    @StateObject private var vm: UITestingViewModel
+    
+    init(currentUserIsSignedIn: Bool) {
+        _vm = StateObject(wrappedValue: UITestingViewModel(currentUserIsSignedIn: currentUserIsSignedIn))
+    }
     
     var body: some View {
         ZStack {
@@ -66,5 +70,5 @@ extension UITestingView {
 }
 
 #Preview {
-    UITestingView()
+    UITestingView(currentUserIsSignedIn: true)
 }

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9D7AD5AA2BFDFE21008C1E29 /* BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5A92BFDFE21008C1E29 /* BootcampApp.swift */; };
-		9D7AD5AC2BFDFE21008C1E29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5AB2BFDFE21008C1E29 /* ContentView.swift */; };
 		9D7AD5AE2BFDFE23008C1E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7AD5AD2BFDFE23008C1E29 /* Assets.xcassets */; };
 		9D7AD5B12BFDFE23008C1E29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7AD5B02BFDFE23008C1E29 /* Preview Assets.xcassets */; };
 		9D7AD5B92BFDFE41008C1E29 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5B82BFDFE41008C1E29 /* PostsView.swift */; };
@@ -20,8 +19,6 @@
 		9D7AD5C62BFF304D008C1E29 /* UITestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5C52BFF304D008C1E29 /* UITestingView.swift */; };
 		9D7AD5C82BFF3056008C1E29 /* UITestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5C72BFF3056008C1E29 /* UITestingViewModel.swift */; };
 		9D7AD5CA2BFF3396008C1E29 /* SignedInHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5C92BFF3396008C1E29 /* SignedInHomeView.swift */; };
-		9D7AD5D22BFF3665008C1E29 /* BootcampUI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5D12BFF3665008C1E29 /* BootcampUI_Tests.swift */; };
-		9D7AD5D42BFF3665008C1E29 /* BootcampUI_TestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5D32BFF3665008C1E29 /* BootcampUI_TestsLaunchTests.swift */; };
 		9D7AD5DB2BFF384D008C1E29 /* UITestingView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5DA2BFF384D008C1E29 /* UITestingView_UITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +35,6 @@
 /* Begin PBXFileReference section */
 		9D7AD5A62BFDFE21008C1E29 /* Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7AD5A92BFDFE21008C1E29 /* BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampApp.swift; sourceTree = "<group>"; };
-		9D7AD5AB2BFDFE21008C1E29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D7AD5AD2BFDFE23008C1E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D7AD5B02BFDFE23008C1E29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D7AD5B82BFDFE41008C1E29 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
@@ -51,8 +47,6 @@
 		9D7AD5C72BFF3056008C1E29 /* UITestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingViewModel.swift; sourceTree = "<group>"; };
 		9D7AD5C92BFF3396008C1E29 /* SignedInHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedInHomeView.swift; sourceTree = "<group>"; };
 		9D7AD5CF2BFF3665008C1E29 /* BootcampUI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootcampUI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D7AD5D12BFF3665008C1E29 /* BootcampUI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampUI_Tests.swift; sourceTree = "<group>"; };
-		9D7AD5D32BFF3665008C1E29 /* BootcampUI_TestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampUI_TestsLaunchTests.swift; sourceTree = "<group>"; };
 		9D7AD5DA2BFF384D008C1E29 /* UITestingView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingView_UITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				9D7AD5A92BFDFE21008C1E29 /* BootcampApp.swift */,
-				9D7AD5AB2BFDFE21008C1E29 /* ContentView.swift */,
 				9D7AD5B72BFDFE2F008C1E29 /* DependencyInjection */,
 				9D7AD5C42BFF302B008C1E29 /* UITests */,
 				9D7AD5AD2BFDFE23008C1E29 /* Assets.xcassets */,
@@ -139,8 +132,6 @@
 		9D7AD5D02BFF3665008C1E29 /* BootcampUI_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9D7AD5D12BFF3665008C1E29 /* BootcampUI_Tests.swift */,
-				9D7AD5D32BFF3665008C1E29 /* BootcampUI_TestsLaunchTests.swift */,
 				9D7AD5DA2BFF384D008C1E29 /* UITestingView_UITests.swift */,
 			);
 			path = BootcampUI_Tests;
@@ -253,7 +244,6 @@
 				9D7AD5C82BFF3056008C1E29 /* UITestingViewModel.swift in Sources */,
 				9D7AD5C62BFF304D008C1E29 /* UITestingView.swift in Sources */,
 				9D7AD5BD2BFDFE5F008C1E29 /* PostModel.swift in Sources */,
-				9D7AD5AC2BFDFE21008C1E29 /* ContentView.swift in Sources */,
 				9D7AD5AA2BFDFE21008C1E29 /* BootcampApp.swift in Sources */,
 				9D7AD5C12BFDFE7D008C1E29 /* MockDataService.swift in Sources */,
 				9D7AD5B92BFDFE41008C1E29 /* PostsView.swift in Sources */,
@@ -264,9 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D7AD5D22BFF3665008C1E29 /* BootcampUI_Tests.swift in Sources */,
 				9D7AD5DB2BFF384D008C1E29 /* UITestingView_UITests.swift in Sources */,
-				9D7AD5D42BFF3665008C1E29 /* BootcampUI_TestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
