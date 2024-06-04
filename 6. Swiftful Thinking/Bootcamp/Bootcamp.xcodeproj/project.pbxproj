@@ -21,6 +21,7 @@
 		9D7AD5CA2BFF3396008C1E29 /* SignedInHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5C92BFF3396008C1E29 /* SignedInHomeView.swift */; };
 		9D7AD5DB2BFF384D008C1E29 /* UITestingView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5DA2BFF384D008C1E29 /* UITestingView_UITests.swift */; };
 		9DD8DBDD2C0F3F2D0069F350 /* TextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8DBDC2C0F3F2D0069F350 /* TextDemo.swift */; };
+		9DD8DBDF2C0F45D70069F350 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8DBDE2C0F45D70069F350 /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		9D7AD5CF2BFF3665008C1E29 /* BootcampUI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootcampUI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7AD5DA2BFF384D008C1E29 /* UITestingView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingView_UITests.swift; sourceTree = "<group>"; };
 		9DD8DBDC2C0F3F2D0069F350 /* TextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemo.swift; sourceTree = "<group>"; };
+		9DD8DBDE2C0F45D70069F350 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				9D7AD5A92BFDFE21008C1E29 /* BootcampApp.swift */,
+				9DD8DBE02C0F45E00069F350 /* Basic Components */,
 				9D7AD5B72BFDFE2F008C1E29 /* DependencyInjection */,
 				9D7AD5C42BFF302B008C1E29 /* UITests */,
 				9D7AD5AD2BFDFE23008C1E29 /* Assets.xcassets */,
 				9D7AD5AF2BFDFE23008C1E29 /* Preview Content */,
-				9DD8DBDC2C0F3F2D0069F350 /* TextDemo.swift */,
 			);
 			path = Bootcamp;
 			sourceTree = "<group>";
@@ -138,6 +140,15 @@
 				9D7AD5DA2BFF384D008C1E29 /* UITestingView_UITests.swift */,
 			);
 			path = BootcampUI_Tests;
+			sourceTree = "<group>";
+		};
+		9DD8DBE02C0F45E00069F350 /* Basic Components */ = {
+			isa = PBXGroup;
+			children = (
+				9DD8DBDC2C0F3F2D0069F350 /* TextDemo.swift */,
+				9DD8DBDE2C0F45D70069F350 /* Shapes.swift */,
+			);
+			path = "Basic Components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +262,7 @@
 				9D7AD5C12BFDFE7D008C1E29 /* MockDataService.swift in Sources */,
 				9D7AD5B92BFDFE41008C1E29 /* PostsView.swift in Sources */,
 				9DD8DBDD2C0F3F2D0069F350 /* TextDemo.swift in Sources */,
+				9DD8DBDF2C0F45D70069F350 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
