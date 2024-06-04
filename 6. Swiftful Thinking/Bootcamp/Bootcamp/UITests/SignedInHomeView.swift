@@ -41,7 +41,6 @@ struct SignedInHomeView: View {
             })
             .padding()
             .navigationTitle("Welcome")
-            
         })
     }
 }
