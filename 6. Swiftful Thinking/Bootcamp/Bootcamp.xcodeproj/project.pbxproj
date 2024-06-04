@@ -22,6 +22,7 @@
 		9D7AD5DB2BFF384D008C1E29 /* UITestingView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5DA2BFF384D008C1E29 /* UITestingView_UITests.swift */; };
 		9DD8DBDD2C0F3F2D0069F350 /* TextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8DBDC2C0F3F2D0069F350 /* TextDemo.swift */; };
 		9DD8DBDF2C0F45D70069F350 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8DBDE2C0F45D70069F350 /* Shapes.swift */; };
+		9DD8DBE22C0F4C7A0069F350 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8DBE12C0F4C7A0069F350 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9D7AD5DA2BFF384D008C1E29 /* UITestingView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingView_UITests.swift; sourceTree = "<group>"; };
 		9DD8DBDC2C0F3F2D0069F350 /* TextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemo.swift; sourceTree = "<group>"; };
 		9DD8DBDE2C0F45D70069F350 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		9DD8DBE12C0F4C7A0069F350 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			children = (
 				9DD8DBDC2C0F3F2D0069F350 /* TextDemo.swift */,
 				9DD8DBDE2C0F45D70069F350 /* Shapes.swift */,
+				9DD8DBE12C0F4C7A0069F350 /* Colors.swift */,
 			);
 			path = "Basic Components";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				9D7AD5C62BFF304D008C1E29 /* UITestingView.swift in Sources */,
 				9D7AD5BD2BFDFE5F008C1E29 /* PostModel.swift in Sources */,
 				9D7AD5AA2BFDFE21008C1E29 /* BootcampApp.swift in Sources */,
+				9DD8DBE22C0F4C7A0069F350 /* Colors.swift in Sources */,
 				9D7AD5C12BFDFE7D008C1E29 /* MockDataService.swift in Sources */,
 				9D7AD5B92BFDFE41008C1E29 /* PostsView.swift in Sources */,
 				9DD8DBDD2C0F3F2D0069F350 /* TextDemo.swift in Sources */,
