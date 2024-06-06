@@ -8,3 +8,6 @@
 * VNDocumentCameraViewController
 
 ### Custom Styles And Theme
+
+### WebView
+* open an in-app link with different browsers (Chrome, Firefox, Safari)
