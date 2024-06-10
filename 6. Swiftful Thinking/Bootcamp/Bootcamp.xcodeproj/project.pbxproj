@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D3E16942C1734BA00EAD9E7 /* ImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E16932C1734BA00EAD9E7 /* ImageBootcamp.swift */; };
 		9D7AD5AA2BFDFE21008C1E29 /* BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5A92BFDFE21008C1E29 /* BootcampApp.swift */; };
 		9D7AD5AE2BFDFE23008C1E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7AD5AD2BFDFE23008C1E29 /* Assets.xcassets */; };
 		9D7AD5B12BFDFE23008C1E29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7AD5B02BFDFE23008C1E29 /* Preview Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D3E16932C1734BA00EAD9E7 /* ImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootcamp.swift; sourceTree = "<group>"; };
 		9D7AD5A62BFDFE21008C1E29 /* Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7AD5A92BFDFE21008C1E29 /* BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampApp.swift; sourceTree = "<group>"; };
 		9D7AD5AD2BFDFE23008C1E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				9DD8DBDC2C0F3F2D0069F350 /* TextDemo.swift */,
 				9DD8DBDE2C0F45D70069F350 /* Shapes.swift */,
 				9DD8DBE12C0F4C7A0069F350 /* Colors.swift */,
+				9D3E16932C1734BA00EAD9E7 /* ImageBootcamp.swift */,
 			);
 			path = "Basic Components";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				9D7AD5C82BFF3056008C1E29 /* UITestingViewModel.swift in Sources */,
 				9D7AD5C62BFF304D008C1E29 /* UITestingView.swift in Sources */,
 				9D7AD5BD2BFDFE5F008C1E29 /* PostModel.swift in Sources */,
+				9D3E16942C1734BA00EAD9E7 /* ImageBootcamp.swift in Sources */,
 				9D7AD5AA2BFDFE21008C1E29 /* BootcampApp.swift in Sources */,
 				9DD8DBE22C0F4C7A0069F350 /* Colors.swift in Sources */,
 				9D7AD5C12BFDFE7D008C1E29 /* MockDataService.swift in Sources */,
