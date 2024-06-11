@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D3E16942C1734BA00EAD9E7 /* ImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E16932C1734BA00EAD9E7 /* ImageBootcamp.swift */; };
+		9D3E16962C186C4500EAD9E7 /* FramesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E16952C186C4500EAD9E7 /* FramesView.swift */; };
 		9D7AD5AA2BFDFE21008C1E29 /* BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AD5A92BFDFE21008C1E29 /* BootcampApp.swift */; };
 		9D7AD5AE2BFDFE23008C1E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7AD5AD2BFDFE23008C1E29 /* Assets.xcassets */; };
 		9D7AD5B12BFDFE23008C1E29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7AD5B02BFDFE23008C1E29 /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		9D3E16932C1734BA00EAD9E7 /* ImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootcamp.swift; sourceTree = "<group>"; };
+		9D3E16952C186C4500EAD9E7 /* FramesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesView.swift; sourceTree = "<group>"; };
 		9D7AD5A62BFDFE21008C1E29 /* Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7AD5A92BFDFE21008C1E29 /* BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampApp.swift; sourceTree = "<group>"; };
 		9D7AD5AD2BFDFE23008C1E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				9DD8DBDE2C0F45D70069F350 /* Shapes.swift */,
 				9DD8DBE12C0F4C7A0069F350 /* Colors.swift */,
 				9D3E16932C1734BA00EAD9E7 /* ImageBootcamp.swift */,
+				9D3E16952C186C4500EAD9E7 /* FramesView.swift */,
 			);
 			path = "Basic Components";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D7AD5BF2BFDFE6E008C1E29 /* NetworkManager.swift in Sources */,
+				9D3E16962C186C4500EAD9E7 /* FramesView.swift in Sources */,
 				9D7AD5BB2BFDFE53008C1E29 /* PostsListViewModel.swift in Sources */,
 				9D7AD5C32BFDFE88008C1E29 /* PostError.swift in Sources */,
 				9D7AD5CA2BFF3396008C1E29 /* SignedInHomeView.swift in Sources */,
