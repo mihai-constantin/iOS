@@ -23,6 +23,7 @@ playground
 var a = 100_000_000
 ```
 
-* Complex data types: arrays, dictionaries
+* Complex data types: arrays, dictionaries, sets
+* Type annotations
 
 ### Project 1 - WeSplit
