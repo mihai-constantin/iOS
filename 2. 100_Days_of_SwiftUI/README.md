@@ -25,5 +25,12 @@ var a = 100_000_000
 
 * Complex data types: arrays, dictionaries, sets
 * Type annotations
+```
+var greeting : String = "Hello"
+var number   : Double = 10
+```
+* If statements, ternary conditional operator
+* switch, fallthrough
+* Loops: for, while
 
 ### Project 1 - WeSplit
