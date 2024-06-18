@@ -35,3 +35,38 @@ do {
         }
     }
 }
+
+enum CustomError: Error {
+    case outOBounds
+    case noRoot
+}
+
+func checkpoint4(number: Int) throws -> Int {
+    if number < 1 || number > 10_000 {
+        throw CustomError.outOBounds
+    }
+    
+    for i in 1...100 {
+        if i * i == number {
+            return i
+        }
+    }
+    
+    throw CustomError.noRoot
+}
+
+do {
+    let result = try checkpoint4(number: 10_421)
+    print(result)
+} catch {
+    if let error = error as? CustomError {
+        switch error {
+        case .outOBounds:
+            print("Number is not in range.")
+        case .noRoot:
+            print("No root found.")
+        }
+    }
+}
+
+
