@@ -23,7 +23,7 @@ playground
 var a = 100_000_000
 ```
 
-* Complex data types: arrays, dictionaries, sets
+* Complex data types: arrays, dictionaries, sets, tuples
 * Type annotations
 ```
 var greeting : String = "Hello"
@@ -32,5 +32,7 @@ var number   : Double = 10
 * If statements, ternary conditional operator
 * switch, fallthrough
 * Loops: for, while
+* Functions, parameters, return values, default values, handling errors
+
 
 ### Project 1 - WeSplit
