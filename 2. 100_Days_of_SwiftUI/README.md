@@ -33,6 +33,6 @@ var number   : Double = 10
 * switch, fallthrough
 * Loops: for, while
 * Functions, parameters, return values, default values, handling errors
-
+* Closures, passing functions into functions
 
 ### Project 1 - WeSplit
