@@ -11,11 +11,7 @@
 		9DB642072C21C2DA0086DDEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB642062C21C2DA0086DDEE /* ContentView.swift */; };
 		9DB642092C21C2E80086DDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB642082C21C2E80086DDEE /* Assets.xcassets */; };
 		9DB6420C2C21C2E80086DDEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6420B2C21C2E80086DDEE /* Preview Assets.xcassets */; };
-		9DB642132C21C3060086DDEE /* ScreenshotPreventView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB642122C21C3060086DDEE /* ScreenshotPreventView2.swift */; };
-		9DB642172C21D7830086DDEE /* ScreenshotPreventingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB642142C21D7830086DDEE /* ScreenshotPreventingView.swift */; };
-		9DB642182C21D7830086DDEE /* ScreenshotPrevent+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB642152C21D7830086DDEE /* ScreenshotPrevent+SwiftUI.swift */; };
-		9DB642192C21D7830086DDEE /* ScreenshotPrevent+ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB642162C21D7830086DDEE /* ScreenshotPrevent+ViewModifier.swift */; };
-		9DB6421B2C21DBBB0086DDEE /* ScreenshotOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB6421A2C21DBBB0086DDEE /* ScreenshotOverlayView.swift */; };
+		9DB642132C21C3060086DDEE /* ScreenshotPreventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB642122C21C3060086DDEE /* ScreenshotPreventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +20,7 @@
 		9DB642062C21C2DA0086DDEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DB642082C21C2E80086DDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DB6420B2C21C2E80086DDEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9DB642122C21C3060086DDEE /* ScreenshotPreventView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotPreventView2.swift; sourceTree = "<group>"; };
-		9DB642142C21D7830086DDEE /* ScreenshotPreventingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotPreventingView.swift; sourceTree = "<group>"; };
-		9DB642152C21D7830086DDEE /* ScreenshotPrevent+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScreenshotPrevent+SwiftUI.swift"; sourceTree = "<group>"; };
-		9DB642162C21D7830086DDEE /* ScreenshotPrevent+ViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScreenshotPrevent+ViewModifier.swift"; sourceTree = "<group>"; };
-		9DB6421A2C21DBBB0086DDEE /* ScreenshotOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotOverlayView.swift; sourceTree = "<group>"; };
+		9DB642122C21C3060086DDEE /* ScreenshotPreventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotPreventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +55,9 @@
 			children = (
 				9DB642042C21C2DA0086DDEE /* PreventScreenshotApp.swift */,
 				9DB642062C21C2DA0086DDEE /* ContentView.swift */,
-				9DB642122C21C3060086DDEE /* ScreenshotPreventView2.swift */,
+				9DB642122C21C3060086DDEE /* ScreenshotPreventView.swift */,
 				9DB642082C21C2E80086DDEE /* Assets.xcassets */,
 				9DB6420A2C21C2E80086DDEE /* Preview Content */,
-				9DB642152C21D7830086DDEE /* ScreenshotPrevent+SwiftUI.swift */,
-				9DB642162C21D7830086DDEE /* ScreenshotPrevent+ViewModifier.swift */,
-				9DB642142C21D7830086DDEE /* ScreenshotPreventingView.swift */,
-				9DB6421A2C21DBBB0086DDEE /* ScreenshotOverlayView.swift */,
 			);
 			path = PreventScreenshot;
 			sourceTree = "<group>";
@@ -152,11 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB642192C21D7830086DDEE /* ScreenshotPrevent+ViewModifier.swift in Sources */,
-				9DB642172C21D7830086DDEE /* ScreenshotPreventingView.swift in Sources */,
-				9DB642182C21D7830086DDEE /* ScreenshotPrevent+SwiftUI.swift in Sources */,
-				9DB6421B2C21DBBB0086DDEE /* ScreenshotOverlayView.swift in Sources */,
-				9DB642132C21C3060086DDEE /* ScreenshotPreventView2.swift in Sources */,
+				9DB642132C21C3060086DDEE /* ScreenshotPreventView.swift in Sources */,
 				9DB642072C21C2DA0086DDEE /* ContentView.swift in Sources */,
 				9DB642052C21C2DA0086DDEE /* PreventScreenshotApp.swift in Sources */,
 			);

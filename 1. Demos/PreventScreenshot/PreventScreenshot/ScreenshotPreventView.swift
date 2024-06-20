@@ -1,5 +1,5 @@
 //
-//  ScreenshotPreventView2.swift
+//  ScreenshotPreventView.swift
 //  PreventScreenshot
 //
 //  Created by Mihai Constantin on 18.06.2024.
@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-public struct ScreenshotPreventView2<Content: View>: UIViewRepresentable {
+public struct ScreenshotPreventView<Content: View>: UIViewRepresentable {
     
     let content: () -> Content
     
@@ -17,6 +17,7 @@ public struct ScreenshotPreventView2<Content: View>: UIViewRepresentable {
     }
     
     public func makeUIView(context: Context) -> UIView {
+        
         let secureTextField = UITextField()
         secureTextField.isSecureTextEntry = true
         secureTextField.isUserInteractionEnabled = false
@@ -41,38 +42,17 @@ public struct ScreenshotPreventView2<Content: View>: UIViewRepresentable {
             hController.view.trailingAnchor.constraint(equalTo: secureView.trailingAnchor)
         ])
         
-        NotificationCenter.default.addObserver(context.coordinator, selector: #selector(context.coordinator.userDidTakeScreenshot), name: UIApplication.userDidTakeScreenshotNotification, object: nil)
-        
         return secureView
     }
     
     public func updateUIView(_ uiView: UIView, context: Context) { }
-    
-    public func makeCoordinator() -> Coordinator {
-            Coordinator()
-        }
-        
-        public class Coordinator: NSObject {
-            @objc func userDidTakeScreenshot() {
-                if let window = UIApplication.shared.windows.first {
-                    let overlayView = UIHostingController(rootView: ScreenshotOverlayView()).view!
-                    overlayView.backgroundColor = .clear
-                    overlayView.frame = window.bounds
-                    window.addSubview(overlayView)
-                    
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                        overlayView.removeFromSuperview()
-                    }
-                }
-            }
-        }
 }
 
 extension View {
-
+    
     @ViewBuilder func preventScreenshot(_ shouldPrevent: Bool = true) -> some View {
         if shouldPrevent {
-            ScreenshotPreventView2 { self }
+            ScreenshotPreventView { self }
         } else {
             self
         }
