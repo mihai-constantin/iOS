@@ -34,5 +34,8 @@ var number   : Double = 10
 * Loops: for, while
 * Functions, parameters, return values, default values, handling errors
 * Closures, passing functions into functions
+* Structs, mutating functions, computing properties, getters and setters
+* didSet, willSet property observers
+* Initializers
 
 ### Project 1 - WeSplit
