@@ -6,6 +6,11 @@ let sayHello = { (name: String) -> String in
 
 print(sayHello("Mihai"))
 
+let x = {
+    print("Good morning")
+}
+x()
+
 var a = [1,2,3,4,5]
 
 a.sort { (x: Int, y: Int) -> Bool in
@@ -32,6 +37,14 @@ let array = makeArray(size: 5) {
     Int.random(in: 0...100)
 }
 print(array)
+
+func f(using f2: () -> ()) {
+    f2()
+}
+
+f {
+    print("Hello")
+}
 
 
 // MARK: - checkpoint5
