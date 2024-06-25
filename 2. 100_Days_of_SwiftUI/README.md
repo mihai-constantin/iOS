@@ -40,5 +40,6 @@ var number   : Double = 10
 * **Access control**: public, private, fileprivate, private(set)
 * Static properties and methods
 * **Classes**, inheritance, deinitializer
+* **Protocols**, **extensions**
 
 ### Project 1 - WeSplit
