@@ -17,8 +17,8 @@ Employee.example.password
 
 // checkpoint6
 struct Car {
-    private(set) let model: String
-    private(set) let numberOfSeats: Int
+    private let model: String
+    private let numberOfSeats: Int
     private(set) var currentGear: Int
     
     init(model: String, numberOfSeats: Int, currentGear: Int) {

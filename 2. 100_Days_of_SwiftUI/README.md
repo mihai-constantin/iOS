@@ -29,15 +29,16 @@ var a = 100_000_000
 var greeting : String = "Hello"
 var number   : Double = 10
 ```
-* If statements, ternary conditional operator
-* Switch, fallthrough
-* Loops: for, while
-* Functions, parameters, return values, default values, handling errors
-* Closures, passing functions into functions
-* Structs, mutating functions, computing properties, getters and setters
+* **If** statements, ternary conditional operator
+* **Switch**, fallthrough
+* **Loops**: for, while
+* **Functions**, parameters, return values, default values, handling errors
+* **Closures**, passing functions into functions
+* **Structs**, mutating functions, computing properties, getters and setters
 * didSet, willSet property observers
 * Initializers
-* Access control: public, private, fileprivate, private(set)
+* **Access control**: public, private, fileprivate, private(set)
 * Static properties and methods
+* **Classes**
 
 ### Project 1 - WeSplit
