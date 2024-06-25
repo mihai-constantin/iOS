@@ -40,3 +40,65 @@ var teslaX = Car(isElectric: true, isConvertible: false)
 //var teslaX = Car(isElectric: true)
 print(teslaX.isElectric)
 print(teslaX.isConvertible)
+
+// checkpoint7
+class Animal {
+    var legs: Int
+    
+    init(legs: Int) {
+        self.legs = legs
+    }
+}
+
+class Dog: Animal {
+    func speak() {
+        print("[Dog] Bark")
+    }
+}
+
+class Cat: Animal {
+    
+    var isTame: Bool
+    
+    init(legs: Int, isTame: Bool) {
+        self.isTame = isTame
+        super.init(legs: legs)
+    }
+    
+    func speak() {
+        print("[Cat] Meow!")
+    }
+}
+
+class Corgi: Dog {
+    override func speak() {
+        print("[Corgi] Bark")
+    }
+}
+
+class Poodle: Dog {
+    override func speak() {
+        print("[Poodle] Bark")
+    }
+}
+
+class Persian: Cat {
+    override func speak() {
+        print("[Persian] Meow!")
+    }
+}
+
+class Lion: Cat {
+    override func speak() {
+        print("[Lion] Meow!")
+    }
+}
+
+var lion = Lion(legs: 4, isTame: false)
+lion.speak()
+var persian = Persian(legs: 4, isTame: true)
+persian.speak()
+var poodle = Poodle(legs: 4)
+poodle.speak()
+var corgi = Corgi(legs: 4)
+corgi.speak()
