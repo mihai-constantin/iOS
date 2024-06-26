@@ -42,5 +42,6 @@ var number   : Double = 10
 * **Classes**, inheritance, deinitializer
 * **Protocols**, **extensions**
 * opaque return types: ``func f() -> some View { }``
+* **Protocol extensions**
 
 ### Project 1 - WeSplit
