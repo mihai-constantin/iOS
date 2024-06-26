@@ -41,5 +41,6 @@ var number   : Double = 10
 * Static properties and methods
 * **Classes**, inheritance, deinitializer
 * **Protocols**, **extensions**
+* opaque return types: ``func f() -> some View { }``
 
 ### Project 1 - WeSplit

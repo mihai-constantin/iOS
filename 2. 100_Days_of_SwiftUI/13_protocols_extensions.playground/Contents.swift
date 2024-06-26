@@ -1,5 +1,7 @@
 import Cocoa
 
+// MARK: - Protocols
+
 protocol Vehicle {
     var name: String { get }
     var currentPassengers: Int { get set }
@@ -54,3 +56,34 @@ print(bike.currentPassengers)
 bike.currentPassengers = 4
 print(bike.currentPassengers)
 commute(distance: 100, using: bike)
+
+// MARK: - Extensions
+
+extension String {
+    func trimmed() -> String {
+        self.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
+    mutating func trim() {
+        self = self.trimmed()
+    }
+    
+    var lines: [String] {
+        self.components(separatedBy: .newlines)
+    }
+}
+
+var text = "    Hello there!    "
+print(text.trimmed())
+
+var quote = "         Luke, I am your father!    "
+quote.trim()
+print(quote)
+
+var multiLine = """
+This is a multi line
+text
+good morning
+"""
+
+print(multiLine.lines.count)
