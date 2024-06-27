@@ -7,7 +7,7 @@
     * https://developer.apple.com/tutorials/swiftui
     * https://www.apple.com/education/k12/learn-to-code/  
 
-### Days 1-14 - Introduction to Swift
+### Days 1-15 - Introduction to Swift
 * Variables (var), constants (let)
 * Data types: String, Int, Double, Bool
 * String interpolation
