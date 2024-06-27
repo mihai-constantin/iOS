@@ -43,5 +43,6 @@ var number   : Double = 10
 * **Protocols**, **extensions**
 * opaque return types: ``func f() -> some View { }``
 * **Protocol extensions**
+* **Optionals**, guard let, nil coalescing
 
 ### Project 1 - WeSplit
