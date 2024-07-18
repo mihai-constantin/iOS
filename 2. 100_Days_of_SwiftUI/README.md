@@ -45,7 +45,12 @@ var number   : Double = 10
 * **Protocol extensions**
 * **Optionals**, guard let, nil coalescing
 
-### Days 16-1 - Project 1 - WeSplit
+### Days 16-18: Project 1 - WeSplit
 * Forms, Pickers
 * NavigationStack, navigationTitle
 * **@State** wrapper, bindings
+
+### Day 19: Challenge Project 1
+* Unit Conversions App
+
+### Day 20-22 : Project 2
