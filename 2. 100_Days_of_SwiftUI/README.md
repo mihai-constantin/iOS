@@ -53,7 +53,7 @@ var number   : Double = 10
 ### Day 19: Challenge Project 1
 * Unit Conversions App
 
-### Day 20-22 : Project 2
+### Day 20-22 : Project 2 - Guess The Flag
 * VStack, HStack, ZStack
 * Colors and frames
 * Gradients: Linear, Radial, Angular
