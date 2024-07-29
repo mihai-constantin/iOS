@@ -54,3 +54,5 @@ var number   : Double = 10
 * Unit Conversions App
 
 ### Day 20-22 : Project 2
+* VStack, HStack, ZStack
+* Colors and frames
