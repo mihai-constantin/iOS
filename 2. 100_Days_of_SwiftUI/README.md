@@ -56,3 +56,6 @@ var number   : Double = 10
 ### Day 20-22 : Project 2
 * VStack, HStack, ZStack
 * Colors and frames
+* Gradients: Linear, Radial, Angular
+* Buttons and Images
+* Alerts
