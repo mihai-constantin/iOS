@@ -31,6 +31,7 @@ struct ContentView: View {
         VStack {
             GridStack(rows: 3, columns: 5) { row, col in
                 Text("[\(row),\(col)]")
+                    .titleStyle()
             }
         }
         .padding()
