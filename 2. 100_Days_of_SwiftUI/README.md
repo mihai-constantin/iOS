@@ -60,7 +60,12 @@ var number   : Double = 10
 * Buttons and Images
 * Alerts
 
-## Days 23-25: Project 3
+## Days 23-24: Project 3
 * Views and modifiers
 * Conditional modifiers, custom modifiers
 * Custom bindings
+
+### Day 25: Milestone: Projects 1-3
+* RockPaperScissors challenge
+
+## Days 26-28: Project 4
