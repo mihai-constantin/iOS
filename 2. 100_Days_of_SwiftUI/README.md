@@ -63,3 +63,4 @@ var number   : Double = 10
 ## Days 23-25: Project 3
 * Views and modifiers
 * Conditional modifiers, custom modifiers
+* Custom bindings
