@@ -69,3 +69,5 @@ var number   : Double = 10
 * RockPaperScissors challenge
 
 ## Days 26-28: Project 4
+* Working with dates and stepper
+* CreateML + CoreML introduction
