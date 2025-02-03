@@ -60,7 +60,7 @@ var number   : Double = 10
 * Buttons and Images
 * Alerts
 
-## Days 23-24: Project 3
+## Days 23-24: Project 3 - ColorsAndFrames
 * Views and modifiers
 * Conditional modifiers, custom modifiers
 * Custom bindings
@@ -68,7 +68,11 @@ var number   : Double = 10
 ### Day 25: Milestone: Projects 1-3
 * RockPaperScissors challenge
 
-## Days 26-28: Project 4
+## Days 26-28: Project 4 - BetterRest
 * Working with dates and stepper
 * CreateML, CoreML
 * Make predictions (CoreML) using a trained model (CreateML)
+
+## Days 29-31: Project 5 - Word Scramble
+* Working with lists, strings
+* Loading file resources from app bundle
