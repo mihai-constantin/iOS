@@ -16,10 +16,9 @@ struct ContentView: View {
     @State private var coffeeAmount = 1 // how many cups of coffee I drink during the day
     
     // Result: When should I go to bed
-    
-    @State private var alertTitle = ""
-    @State private var alertMessage = ""
-    @State private var showAlert = false
+    private var sleepTime: String {
+        return calculateBedtime()
+    }
     
     static var defaultWakeTime: Date {
         var components = DateComponents()
@@ -31,41 +30,34 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             Form {
-                VStack(alignment: .leading, spacing: 0) {
-                    Text("When do you want to wake up?")
-                        .font(.headline)
-                    
+                Section("When do you want to wake up?") {
                     DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
                         .labelsHidden()
                 }
                 
-                VStack(alignment: .leading, spacing: 0) {
-                    Text("Desired amount of sleep")
-                        .font(.headline)
-                    
+                Section("Desired amount of sleep") {
                     Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
                 }
                 
-                VStack(alignment: .leading, spacing: 0) {
-                    Text("Daily coffee intake")
-                        .font(.headline)
+                Section("Daily coffee intake") {
+//                    Stepper("^[\(coffeeAmount) cup](inflect: true)", value: $coffeeAmount, in: 1...20)
                     
-                    Stepper("^[\(coffeeAmount) cup](inflect: true)", value: $coffeeAmount, in: 1...20)
+                    Picker("Coffee intake", selection: $coffeeAmount) {
+                        ForEach(1...20, id: \.self) { idx in
+                            Text("\(idx)")
+                        }
+                    }
+                }
+                
+                Section("Bedtime") {
+                    Text(sleepTime)
                 }
             }
             .navigationTitle("BetterRest")
-            .toolbar {
-                Button("Calculate", action: calculateBedtime)
-            }
-            .alert(alertTitle, isPresented: $showAlert) {
-                Button("OK") { }
-            } message: {
-                Text(alertMessage)
-            }
         }
     }
     
-    func calculateBedtime() {
+    func calculateBedtime() -> String {
         do {
             let config = MLModelConfiguration()
             let model = try SleepCalculator(configuration: config)
@@ -82,16 +74,11 @@ struct ContentView: View {
             
             let sleepTime = wakeUp - prediction.actualSleep
             
-            alertTitle = "Your ideal bed time is..."
-            alertMessage = sleepTime.formatted(date: .omitted, time: .shortened)
-            
+            return "Your ideal bed time is " + sleepTime.formatted(date: .omitted, time: .shortened)
         } catch {
             // something went wrong
-            alertTitle = "Error"
-            alertMessage = "Sorry, there was an error calculating your bedtime. Please try again later."
+            return "Error"
         }
-        
-        showAlert = true
     }
 }
 
