@@ -70,4 +70,5 @@ var number   : Double = 10
 
 ## Days 26-28: Project 4
 * Working with dates and stepper
-* CreateML + CoreML introduction
+* CreateML, CoreML
+* Make predictions (CoreML) using a trained model (CreateML)
