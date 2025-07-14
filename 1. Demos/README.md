@@ -11,3 +11,6 @@
 
 ### WebView
 * open an in-app link with different browsers (Chrome, Firefox, Safari)
+
+### Deeplinks
+* use deeplinks to open your app and navigate into a specific location
